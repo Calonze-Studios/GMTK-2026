@@ -24,3 +24,8 @@ global.debug_message_timer = [];
 global.hover_instance = -1;
 
 global.canmove = 1;
+
+global.textfont = Font1
+
+global.txtsnd = [snd_blip]
+global.txtspd = 1;

@@ -43,9 +43,11 @@ if walking || frame % 2 != 0 {
 	}
 }
 
-/*
-var nearest = instance_nearest(x, y, obj_interactable)
+if instance_exists(obj_interactable) {
+	var nearest = instance_nearest(x, y, obj_interactable)
 
-if point_distance(x, y, nearest.x, nearest.y) < 20 {
-	
+	if point_distance(x, y, nearest.x, nearest.y) < 100 {
+		global.hover_instance = nearest;
+	} else
+		global.hover_instance = -1;
 }
