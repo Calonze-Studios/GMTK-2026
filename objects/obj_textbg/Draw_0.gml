@@ -1,0 +1,1 @@
+//draw_sprite_ext(spr_nineslice_dialogue, 0, x, y);

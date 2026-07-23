@@ -27,6 +27,11 @@ if global.debug {
 	
 }
 
+if global.hover_instance != -1 {
+	draw_sprite(spr_arrowu, 0, global.hover_instance.x, global.hover_instance.y - 20)
+}
+
+
 while obj_player.x < 0
 	obj_player.x += room_width;
 while obj_player.x > room_width

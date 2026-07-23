@@ -1,12 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"obj_interactable",
+  "%Name":"obj_textbg",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_interactable",
+  "name":"obj_textbg",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_player_place",
-    "path":"sprites/spr_player_place/spr_player_place.yy",
+    "name":"spr_nineslice_dialogue",
+    "path":"sprites/spr_nineslice_dialogue/spr_nineslice_dialogue.yy",
   },
   "spriteMaskId":null,
   "visible":true,
