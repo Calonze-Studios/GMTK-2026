@@ -1,4 +1,16 @@
 {
   "FolderOrderSettings":[],
-  "ResourceOrderSettings":[],
+  "ResourceOrderSettings":[
+    {"name":"obj_camera","order":2,"path":"objects/obj_camera/obj_camera.yy",},
+    {"name":"obj_interactable","order":4,"path":"objects/obj_interactable/obj_interactable.yy",},
+    {"name":"obj_manager","order":1,"path":"objects/obj_manager/obj_manager.yy",},
+    {"name":"obj_nuke","order":3,"path":"objects/obj_nuke/obj_nuke.yy",},
+    {"name":"debug","order":2,"path":"scripts/debug/debug.yy",},
+    {"name":"inputs","order":1,"path":"scripts/inputs/inputs.yy",},
+    {"name":"spr_nuke_darken","order":2,"path":"sprites/spr_nuke_darken/spr_nuke_darken.yy",},
+    {"name":"spr_nuke_texture_overlay_place","order":5,"path":"sprites/spr_nuke_texture_overlay_place/spr_nuke_texture_overlay_place.yy",},
+    {"name":"spr_nuke_texture_place","order":3,"path":"sprites/spr_nuke_texture_place/spr_nuke_texture_place.yy",},
+    {"name":"spr_player_place_better","order":4,"path":"sprites/spr_player_place_better/spr_player_place_better.yy",},
+    {"name":"spr_player","order":1,"path":"sprites/spr_player/spr_player.yy",},
+  ],
 }
