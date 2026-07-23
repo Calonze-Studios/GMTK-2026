@@ -1,7 +1,7 @@
 {
   "FolderOrderSettings":[
-    {"name":"Shader","order":1,"path":"folders/Shader.yy",},
     {"name":"cutscene","order":4,"path":"folders/Scripts/cutscene.yy",},
+    {"name":"Shader","order":1,"path":"folders/Shader.yy",},
   ],
   "ResourceOrderSettings":[
     {"name":"Font1","order":7,"path":"fonts/Font1/Font1.yy",},
@@ -19,6 +19,7 @@
     {"name":"inputs","order":1,"path":"scripts/inputs/inputs.yy",},
     {"name":"is_vowel","order":5,"path":"scripts/is_vowel/is_vowel.yy",},
     {"name":"sound","order":6,"path":"scripts/sound/sound.yy",},
+    {"name":"mus_terminal","order":2,"path":"sounds/mus_terminal/mus_terminal.yy",},
     {"name":"snd_blip","order":1,"path":"sounds/snd_blip/snd_blip.yy",},
     {"name":"spr_arrowu","order":8,"path":"sprites/spr_arrowu/spr_arrowu.yy",},
     {"name":"spr_nineslice_dialogue","order":6,"path":"sprites/spr_nineslice_dialogue/spr_nineslice_dialogue.yy",},
