@@ -10,6 +10,7 @@
   },
   "defaultScriptType":1,
   "Folders":[
+    {"$GMFolder":"","%Name":"Shader","folderPath":"folders/Shader.yy","name":"Shader","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Objects","folderPath":"folders/Objects.yy","name":"Objects","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Rooms","folderPath":"folders/Rooms.yy","name":"Rooms","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Scripts","folderPath":"folders/Scripts.yy","name":"Scripts","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -36,6 +37,7 @@
     {"id":{"name":"debug","path":"scripts/debug/debug.yy",},},
     {"id":{"name":"init","path":"scripts/init/init.yy",},},
     {"id":{"name":"inputs","path":"scripts/inputs/inputs.yy",},},
+    {"id":{"name":"shd_3dnuke","path":"shaders/shd_3dnuke/shd_3dnuke.yy",},},
     {"id":{"name":"spr_nuke_darken","path":"sprites/spr_nuke_darken/spr_nuke_darken.yy",},},
     {"id":{"name":"spr_nuke_texture_overlay_place","path":"sprites/spr_nuke_texture_overlay_place/spr_nuke_texture_overlay_place.yy",},},
     {"id":{"name":"spr_nuke_texture_place","path":"sprites/spr_nuke_texture_place/spr_nuke_texture_place.yy",},},

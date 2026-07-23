@@ -31,8 +31,10 @@ surface_reset_target();
 
 depth = 150;
 
+shader_set(shd_3dnuke);
 draw_surface(nukesurf, global.cam_x + 110, 0);
-//draw_sprite_ext(spr_nuke_darken, 0, global.cam_x + 110, 0, 1, 1, 0, c_white, 0.75)
+shader_reset();
+draw_sprite_ext(spr_nuke_darken, 0, global.cam_x + 110, 0, 1, 1, 0, c_white, 0.75)
 
 
 if global.debug {

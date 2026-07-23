@@ -1,5 +1,7 @@
 {
-  "FolderOrderSettings":[],
+  "FolderOrderSettings":[
+    {"name":"Shader","order":1,"path":"folders/Shader.yy",},
+  ],
   "ResourceOrderSettings":[
     {"name":"obj_camera","order":2,"path":"objects/obj_camera/obj_camera.yy",},
     {"name":"obj_interactable","order":4,"path":"objects/obj_interactable/obj_interactable.yy",},
