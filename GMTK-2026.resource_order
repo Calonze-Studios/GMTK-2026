@@ -1,12 +1,15 @@
 {
   "FolderOrderSettings":[
+    {"name":"pngpuzzle","order":12,"path":"folders/Objects/pngpuzzle.yy",},
     {"name":"cutscene","order":4,"path":"folders/Scripts/cutscene.yy",},
     {"name":"Shader","order":1,"path":"folders/Shader.yy",},
+    {"name":"PNGpuzzle","order":9,"path":"folders/Sprites/PNGpuzzle.yy",},
   ],
   "ResourceOrderSettings":[
     {"name":"Font1","order":7,"path":"fonts/Font1/Font1.yy",},
     {"name":"obj_camera","order":2,"path":"objects/obj_camera/obj_camera.yy",},
     {"name":"obj_cutscene","order":6,"path":"objects/obj_cutscene/obj_cutscene.yy",},
+    {"name":"obj_filechecker","order":11,"path":"objects/obj_filechecker/obj_filechecker.yy",},
     {"name":"obj_interactable","order":4,"path":"objects/obj_interactable/obj_interactable.yy",},
     {"name":"obj_manager","order":1,"path":"objects/obj_manager/obj_manager.yy",},
     {"name":"obj_name_drawer","order":10,"path":"objects/obj_name_drawer/obj_name_drawer.yy",},
@@ -15,6 +18,7 @@
     {"name":"obj_terminal","order":9,"path":"objects/obj_terminal/obj_terminal.yy",},
     {"name":"obj_textbg","order":8,"path":"objects/obj_textbg/obj_textbg.yy",},
     {"name":"obj_writer","order":7,"path":"objects/obj_writer/obj_writer.yy",},
+    {"name":"room_pngpuzzle_test","order":1,"path":"rooms/room_pngpuzzle_test/room_pngpuzzle_test.yy",},
     {"name":"cutscene_funcs","order":1,"path":"scripts/cutscene_funcs/cutscene_funcs.yy",},
     {"name":"debug","order":2,"path":"scripts/debug/debug.yy",},
     {"name":"inputs","order":1,"path":"scripts/inputs/inputs.yy",},
@@ -30,5 +34,6 @@
     {"name":"spr_nuke_texture_place","order":3,"path":"sprites/spr_nuke_texture_place/spr_nuke_texture_place.yy",},
     {"name":"spr_player_place_better","order":4,"path":"sprites/spr_player_place_better/spr_player_place_better.yy",},
     {"name":"spr_player","order":1,"path":"sprites/spr_player/spr_player.yy",},
+    {"name":"spr_treepng","order":1,"path":"sprites/spr_treepng/spr_treepng.yy",},
   ],
 }
