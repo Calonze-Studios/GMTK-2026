@@ -77,15 +77,15 @@
     {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},},
     {"id":{"name":"spr_terminaltemp","path":"sprites/spr_terminaltemp/spr_terminaltemp.yy",},},
     {"id":{"name":"spr_texton","path":"sprites/spr_texton/spr_texton.yy",},},
-    {"id":{"name":"spr_wavey","path":"sprites/spr_wavey/spr_wavey.yy",},},
     {"id":{"name":"spr_treejpg","path":"sprites/spr_treejpg/spr_treejpg.yy",},},
     {"id":{"name":"spr_treepng","path":"sprites/spr_treepng/spr_treepng.yy",},},
+    {"id":{"name":"spr_wavey","path":"sprites/spr_wavey/spr_wavey.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"room_pngpuzzle_test","path":"rooms/room_pngpuzzle_test/room_pngpuzzle_test.yy",},},
     {"roomId":{"name":"room_main","path":"rooms/room_main/room_main.yy",},},
+    {"roomId":{"name":"room_pngpuzzle_test","path":"rooms/room_pngpuzzle_test/room_pngpuzzle_test.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

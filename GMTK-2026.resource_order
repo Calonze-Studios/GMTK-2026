@@ -42,7 +42,7 @@
     {"name":"spr_player_place_better","order":4,"path":"sprites/spr_player_place_better/spr_player_place_better.yy",},
     {"name":"spr_player","order":1,"path":"sprites/spr_player/spr_player.yy",},
     {"name":"spr_texton","order":2,"path":"sprites/spr_texton/spr_texton.yy",},
-    {"name":"spr_wavey","order":1,"path":"sprites/spr_wavey/spr_wavey.yy",},
     {"name":"spr_treepng","order":1,"path":"sprites/spr_treepng/spr_treepng.yy",},
+    {"name":"spr_wavey","order":1,"path":"sprites/spr_wavey/spr_wavey.yy",},
   ],
 }
