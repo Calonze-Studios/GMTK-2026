@@ -1,1 +1,1 @@
-//draw_sprite_ext(spr_nineslice_dialogue, 0, x, y);
+draw_sprite_ext(spr_nineslice_dialogue, 0, x, y, w/sprite_width, h/sprite_height, 0, c_white, 1);

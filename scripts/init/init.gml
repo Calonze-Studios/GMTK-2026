@@ -29,3 +29,5 @@ global.textfont = Font1
 
 global.txtsnd = [snd_blip]
 global.txtspd = 1;
+
+global.textname = "";

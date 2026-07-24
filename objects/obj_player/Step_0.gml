@@ -22,6 +22,8 @@ if global.canmove {
 	
 		walking = 1;
 	}
+} else {
+	xspd = 0;
 }
 
 if xspd < 0

@@ -1,12 +1,14 @@
-draw_x = 0; // X where it starts drawing (aligned to top left)
-draw_y = 0; // Y where it starts drawing (aligned to top left)
+draw_x = x; // X where it starts drawing (aligned to top left)
+draw_y = y; // Y where it starts drawing (aligned to top left)
 
 draw_x_offset = 0;
 draw_y_offset = 0;
 
 width_max = 240; // Maximum width of line
 
-str = "Aaaaaaaaa"
+str = ""
+
+play_snd = 1;
 
 charon = 0; // The character it's on
 soundon = 0; // The sound it's on, so there can be multiple different sounds
@@ -20,7 +22,7 @@ wait = global.txtspd; // How much it should wait between adding 1 to charon
 waiting = 0; // Set to true if there's a pause
 done = 0; // Set to true once it's done writing
 
-textcol = c_white; // Text color
+textcol = c_black; // Text color
 
 charxsep = 8; // X separation between characters
 charysep = 18; // Y separation between characters

@@ -129,12 +129,12 @@ for (var i = 1; i < charon; i++) {
 				subcol = c_yellow;
 			
 			}
-			else if string_char_at(str, i+2) == "D" { // Default
+			else if string_char_at(str, i+2) == "D" { // Dark
 				
-				draw_set_color(c_white);
+				draw_set_color(c_black);
 				
-				col = c_white;
-				subcol = c_white;
+				col = c_black;
+				subcol = c_black;
 				
 			}
 		}
