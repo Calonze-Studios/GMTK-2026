@@ -1,6 +1,5 @@
 draw_x = x; // X where it starts drawing (aligned to top left)
 draw_y = y; // Y where it starts drawing (aligned to top left)
-global.canmove = 0
 
 draw_x_offset = 0;
 draw_y_offset = 0;
@@ -23,10 +22,10 @@ wait = global.txtspd; // How much it should wait between adding 1 to charon
 waiting = 0; // Set to true if there's a pause
 done = 0; // Set to true once it's done writing
 
-textcol = c_black; // Text color
+textcol = c_white; // Text color
 
-charxsep = 8; // X separation between characters
-charysep = 18; // Y separation between characters
+charxsep = 10; // X separation between characters
+charysep = 17; // Y separation between characters
 
 skippable = 0;
 
