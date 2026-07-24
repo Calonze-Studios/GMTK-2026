@@ -1,4 +1,4 @@
-var _mask = working_directory + "LEVEL_DATA/LEVEL1/tree.*"
+var _mask = working_directory + "TERMINALS/penny/tree.*"
 var _tree_name = filename_name(file_find_first(_mask,fa_none));
 var _tree_ext = filename_ext(_tree_name)
 if _tree_ext == ".jpg"

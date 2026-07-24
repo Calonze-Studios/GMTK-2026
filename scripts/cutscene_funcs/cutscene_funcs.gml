@@ -22,3 +22,7 @@ function c_msg(str, audio_clip = -1){
 function c_setname(str){
 	c_cmd("setname", str);
 }
+
+function c_terminalshow(_id){
+	c_cmd("terminalshow", _id);
+}

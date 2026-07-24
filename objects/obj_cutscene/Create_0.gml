@@ -65,6 +65,16 @@ check = function(){
 		}
 	}
 	
+	if command_arg0[command_on] == "terminalshow" {
+		done = 1;
+		
+		if first_doing {
+			instance_create_depth(0, 0, -1000, obj_terminalbig);
+			var handler = scr_terminal_handlers(command_arg1[command_on]);
+		
+			instance_create_depth(0, 0, -1001, handler);
+		}
+	}
 	
 	first_doing = 0;
 	

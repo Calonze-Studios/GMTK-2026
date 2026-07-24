@@ -4,7 +4,7 @@
 varying vec2 v_vTexcoord;
 varying vec4 v_vColour;
 
-#define PI 3.14159265
+#define PI 3.1415926535
 
 void main()
 {

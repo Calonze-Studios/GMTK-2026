@@ -26,7 +26,7 @@
   "origin":4,
   "parent":{
     "name":"PNGpuzzle",
-    "path":"folders/Sprites/PNGpuzzle.yy",
+    "path":"folders/Sprites/puzzles/PNGpuzzle.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

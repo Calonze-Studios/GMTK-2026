@@ -1,0 +1,1 @@
+global.password_can_enter = 1;
