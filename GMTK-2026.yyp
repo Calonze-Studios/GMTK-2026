@@ -26,7 +26,6 @@
   ],
   "ForcedPrefabProjectReferences":[],
   "IncludedFiles":[
-    {"$GMIncludedFile":"","%Name":"tree.jpg","CopyToMask":-1,"filePath":"datafiles/LEVEL_DATA/LEVEL1","name":"tree.jpg","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
     {"$GMIncludedFile":"","%Name":"jason.json","CopyToMask":-1,"filePath":"datafiles/TERMINALS/jason","name":"jason.json","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
     {"$GMIncludedFile":"","%Name":"cloth.png","CopyToMask":-1,"filePath":"datafiles/TERMINALS/penny","name":"cloth.png","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
     {"$GMIncludedFile":"","%Name":"tree.jpg","CopyToMask":-1,"filePath":"datafiles/TERMINALS/penny","name":"tree.jpg","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
