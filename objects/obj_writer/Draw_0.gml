@@ -1,6 +1,20 @@
-draw_x_offset = 0;
-draw_y_offset = 0;
+//draw location variables
+var _cam = view_camera[0]
+var _cam_x = camera_get_view_x(_cam)
+var _cam_y = camera_get_view_y(_cam)
 
+draw_x = _cam_x
+dray_y = _cam_y
+
+var x_offset = 10
+draw_x_offset = x_offset; //can draw slightly offscreen if drawing exactly at camX due to random placement of letters
+draw_y_offset = 235;
+
+//drawing texbox before text so it draws under it
+//draw y slightly higher
+draw_sprite_stretched_ext(spr_nineslice_dialogue,0,draw_x,draw_y-5+draw_y_offset,500,60,c_white,1)
+
+//drawing text
 draw_set_color(textcol);
 draw_set_font(global.textfont);
 draw_set_halign(fa_left);
@@ -178,7 +192,7 @@ for (var i = 1; i < charon; i++) {
 		linebreakon = i;
 		lineon++
 		draw_y_offset += _charysep;
-		draw_x_offset = 0;
+		draw_x_offset = x_offset; //resets it back to the offset that was set previously rather than just being set to 0
 	}
 	else {
 		draw_text_transformed_color(_draw_x + draw_x_offset + (shake_x_offset), _draw_y + (shake_y_offset) + draw_y_offset - (_charysep - (_charysep / txt_yscale)), string_char_at(str, i), txt_xscale, txt_yscale, 0, col, col, subcol, subcol, 1);

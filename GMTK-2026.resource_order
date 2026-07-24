@@ -20,6 +20,7 @@
     {"name":"inputs","order":1,"path":"scripts/inputs/inputs.yy",},
     {"name":"is_vowel","order":5,"path":"scripts/is_vowel/is_vowel.yy",},
     {"name":"sound","order":6,"path":"scripts/sound/sound.yy",},
+    {"name":"mus_terminal","order":2,"path":"sounds/mus_terminal/mus_terminal.yy",},
     {"name":"snd_blip","order":1,"path":"sounds/snd_blip/snd_blip.yy",},
     {"name":"snd_flowery_voiceclip_sorrytokeepyouwaiting2","order":2,"path":"sounds/snd_flowery_voiceclip_sorrytokeepyouwaiting2/snd_flowery_voiceclip_sorrytokeepyouwaiting2.yy",},
     {"name":"spr_arrowu","order":8,"path":"sprites/spr_arrowu/spr_arrowu.yy",},

@@ -1,10 +1,11 @@
 draw_x = x; // X where it starts drawing (aligned to top left)
 draw_y = y; // Y where it starts drawing (aligned to top left)
+global.canmove = 0
 
 draw_x_offset = 0;
 draw_y_offset = 0;
 
-width_max = 240; // Maximum width of line
+width_max = 480; // Maximum width of line
 
 str = ""
 
