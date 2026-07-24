@@ -59,6 +59,7 @@
     {"id":{"name":"spr_player_place_better","path":"sprites/spr_player_place_better/spr_player_place_better.yy",},},
     {"id":{"name":"spr_player_place","path":"sprites/spr_player_place/spr_player_place.yy",},},
     {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},},
+    {"id":{"name":"spr_terminaltemp","path":"sprites/spr_terminaltemp/spr_terminaltemp.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
