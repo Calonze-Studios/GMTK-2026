@@ -10,7 +10,7 @@
   "compression":0,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":1.9677551,
+  "duration":7.650544,
   "exportDir":"",
   "name":"snd_cheer",
   "parent":{
@@ -21,6 +21,6 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"snd_cheer.wav",
+  "soundFile":"snd_cheer.ogg",
   "volume":1.0,
 }
