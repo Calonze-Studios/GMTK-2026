@@ -1,2 +1,4 @@
-dialogue_key = "png_test"
-spr = spr_arrowu;
+spr = spr_texton;
+dialogue_key = "texton_hint"
+
+anim_style = 1;

@@ -1,4 +1,7 @@
 function begin_cutscene(){
+	global.textname = "";
+	global.txtsnd = [snd_blip];
+	
 	while instance_exists(obj_cutscene)
 		instance_destroy(obj_cutscene);
 	

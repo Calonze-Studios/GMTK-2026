@@ -11,4 +11,6 @@ facing = 1; // 0 - left
 			
 image_speed = 0;
 
+depth = -5
+
 flip = 1;

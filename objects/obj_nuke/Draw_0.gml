@@ -34,12 +34,4 @@ depth = 150;
 shader_set(shd_3dnuke);
 draw_surface(nukesurf, global.cam_x + 110, 0);
 shader_reset();
-draw_sprite_ext(spr_nuke_darken, 0, global.cam_x + 110, 0, 1, 1, 0, c_white, 0.75)
-
-
-if global.debug {
-	draw_set_halign(fa_right);
-	draw_text(global.cam_x + 540 - 4, 4, mult);
-	draw_text(global.cam_x + 540 - 4, 20, $"Loops: {loops}")
-	draw_set_halign(fa_left);
-}
+draw_sprite_ext(spr_nuke_darken, 0, global.cam_x + 110, 0, 1, 1, 0, c_white, 0.75);
