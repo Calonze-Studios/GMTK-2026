@@ -60,16 +60,17 @@ if charon <= string_length(str) {
 		}
 		
 	}
+	if play_snd {
+		if audio_is_playing(global.txtsnd[soundon]) {
+			audio_stop_sound(global.txtsnd[soundon])
+		}
 	
-	if audio_is_playing(global.txtsnd[soundon]) {
-		audio_stop_sound(global.txtsnd[soundon])
-	}
+		snd_play(global.txtsnd[soundon])
+		soundon++;
 	
-	snd_play(global.txtsnd[soundon])
-	soundon++;
-	
-	if soundon == array_length(global.txtsnd) {
-		soundon = 0;
+		if soundon == array_length(global.txtsnd) {
+			soundon = 0;
+		}
 	}
 	
 	alarm[1] = wait;

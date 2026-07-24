@@ -1,2 +1,2 @@
-width = 0;
-height = 0;
+w = 0;
+h = 0;

@@ -1,14 +1,15 @@
+draw_x = x; // X where it starts drawing (aligned to top left)
+draw_y = y; // Y where it starts drawing (aligned to top left)
 global.canmove = 0
-
-draw_x = 0; // X where it starts drawing (aligned to top left)
-draw_y = 0; // Y where it starts drawing (aligned to top left)
 
 draw_x_offset = 0;
 draw_y_offset = 0;
 
 width_max = 480; // Maximum width of line
 
-str = "Aaaaaaaaa"
+str = ""
+
+play_snd = 1;
 
 charon = 0; // The character it's on
 soundon = 0; // The sound it's on, so there can be multiple different sounds

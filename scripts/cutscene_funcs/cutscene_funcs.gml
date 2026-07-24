@@ -12,7 +12,7 @@ function c_cmd(arg0, arg1 = 0, arg2 = 0, arg3 = 0){
 	array_push(obj_cutscene.command_arg3, arg3);
 }
 
-function c_msg(str, audio_clip){
+function c_msg(str, audio_clip = -1){
 	c_cmd("msg", str, audio_clip)
 }
 
