@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_terminaltemp",
-    "path":"sprites/spr_terminaltemp/spr_terminaltemp.yy",
+    "name":"spr_terminal",
+    "path":"sprites/spr_terminal/spr_terminal.yy",
   },
   "spriteMaskId":null,
   "visible":true,

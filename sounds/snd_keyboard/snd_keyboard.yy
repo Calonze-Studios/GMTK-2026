@@ -1,6 +1,6 @@
 {
   "$GMSound":"v2",
-  "%Name":"snd_flowery_voiceclip_sorrytokeepyouwaiting2",
+  "%Name":"snd_keyboard",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -10,9 +10,9 @@
   "compression":0,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":1.2546712,
+  "duration":2.29,
   "exportDir":"",
-  "name":"snd_flowery_voiceclip_sorrytokeepyouwaiting2",
+  "name":"snd_keyboard",
   "parent":{
     "name":"Sounds",
     "path":"folders/Sounds.yy",
@@ -21,6 +21,6 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"snd_flowery_voiceclip_sorrytokeepyouwaiting2.wav",
+  "soundFile":"snd_keyboard.wav",
   "volume":1.0,
 }
