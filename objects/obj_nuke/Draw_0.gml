@@ -1,6 +1,14 @@
 var texture = spr_nuke_texture_place;
 var textureoverlay = spr_nuke_texture_overlay_place;
-var texture_width = sprite_get_width(texture)
+var texture_width = sprite_get_width(texture);
+
+var where = global.cam_x + 110;
+if room == room_titlescreen
+	where = 110;
+
+draw_set_color(c_black);
+draw_rectangle(where-2, 0, where + 325, 304, 0);
+draw_set_color(c_white);
 
 var camx = global.cam_x;
 
@@ -31,9 +39,7 @@ surface_reset_target();
 
 depth = 150;
 
-var where = global.cam_x + 110;
-if room == room_titlescreen
-	where = 110;
+
 
 shader_set(shd_3dnuke);
 draw_surface(nukesurf, where, 0);

@@ -7,3 +7,5 @@ red_col = 0;
 red_timer = 0;
 
 error_msg = "";
+
+completed = 0;

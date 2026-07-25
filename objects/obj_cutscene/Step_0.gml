@@ -1,0 +1,3 @@
+
+
+global.canmove = 0;

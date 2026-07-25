@@ -1,5 +1,8 @@
 var centx = obj_player.x - 270;
 var centy = 0;
+
+if room == room_bomb
+	centx = 0
 	
 global.cam_x = centx;
 global.cam_y = centy;

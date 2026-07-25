@@ -56,21 +56,64 @@ function scr_cutscenes(key){
 			}
 		break;
 		case "texton_terminal":
-			c_msg("- You turn on Texton's terminal.");
-			c_terminalshow("txt")
+			if global.puzzle_solved[3] == 0 {
+				c_msg("- You turn on Texton's terminal.")
+				c_terminalshow("txt");
+			} else {
+				c_msg("- You have already completed Texton's terminal.")
+			}
+		break;
+		case "texton_broken":
+			if global.flag[0] == 0 {
+				c_setname("Texton H")
+				c_msg("- Everything has been destroyed.")
+				c_msg("- If you wish to restore it, please restart the     ")
+				c_setflag(0, 1)
+			} else {
+				c_msg(" ")
+			}
 		break;
 		
 		
 		// PENNY
 		case "png_hint0":
 			c_setname("Penny G")
-			c_msg("- oh hi im penny!{w20}\n- what,{w15} my {cR}password{cD}?{w20}\n- yeah idk...")
-			c_msg("- gotta be somewhere on my pc tho{w20}\n- im too tired to do this sry...")
+			if global.puzzle_progress[0] == 0 {
+				c_msg("- oh hi im penny!{w20}\n- what,{w15} my {cR}password{cD}?{w20}\n- yeah idk...")
+				c_msg("- gotta be somewhere on my pc tho{w20}\n- im too tired to do this sry...")
+			}
+			if global.puzzle_progress[0] == 1 {
+				c_msg("- oh that blanket?")
+				c_msg("- yea idk why thats there...")
+				c_msg("")
+			}
+			if global.puzzle_progress[0] == 2 {
+				
+			}
+			if global.puzzle_progress == 3 {
+				
+			}
+			
+		break;
+		case "png_solved":
+			c_setname("Penny G");
+			c_msg("- thx dearie")
+			c_msg("- did you know im only 23 years old?")
+			c_msg("- thats what being a photographer does to u")
 		break;
 		case "png_terminal":
-			c_msg("- You turn on Penny's terminal.")
-			c_terminalshow("png")
-		break;		
+			if global.puzzle_solved[1] == 0 {
+				c_msg("- You turn on Penny's terminal.")
+				c_terminalshow("png");
+			} else {
+				c_msg("- You have already completed Penny's terminal.")
+			}
+		break;
+		case "png_broken":
+			c_setname("			.png")
+			c_msg("Dialogue not found for obj_png_npc");
+			c_msg("- gotta be somewhere on my pc tho{w20}\n- im too tired to do this sry...")
+		break;
 		
 		// WAVEY
 		case "wav_hint0":
@@ -78,6 +121,19 @@ function scr_cutscenes(key){
 			c_msg("- Yo yo YO!{w20} The name's WAVEY!");
 			c_msg("- My {cR}password{cD}?{w20} Hidden in the {cR}TUNES{cD}!")
 			c_msg("- You gotta catch the {cR}WAVE{cD},{w15} baby!{w20}\n- IF you catch my DRIFT,{w15} that is!")
+		break;
+		case "wav_terminal":
+			if global.puzzle_solved[2] == 0 {
+				c_msg("- You turn on Wavey's terminal.")
+				c_terminalshow("wav");
+			} else {
+				c_msg("- You have already completed Wavey's terminal.")
+			}
+		break;
+		case "wav_broken":
+			c_setname("c_setname(wav)")
+			c_msg("c_msg(Hello world!)")
+			c_msg("c_msg(c_msg(c_msg(c_msg")
 		break;
 		
 		
@@ -103,6 +159,12 @@ function scr_cutscenes(key){
 				c_msg("- You have already completed Jason's terminal.")
 			}
 		break;
+		case "json_broken":
+			c_setname("\"json_npc\"")
+			c_msg("Hello! This is debug text! If you encounter this, please\n    the developers!")
+			c_msg("Hello! This is debug text! If you encounter this, please\n    the developers!")
+		break;
+		
 		
 		default:
 			c_msg(key)

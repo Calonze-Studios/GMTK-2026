@@ -2,6 +2,14 @@ draw_sprite(spr_terminalbig, 0, global.cam_x, 0)
 
 draw_set_color(merge_color(merge_color(c_green, c_lime, 0.5), c_red, red_col));
 
+if completed{
+	draw_text(global.cam_x + 134, 108, "YOU DID IT!")
+	draw_sprite(spr_terminaltick, 0, global.cam_x + 145, 186)
+	draw_set_color(c_white);
+	exit;
+}
+
+
 var pass = string(global.password_entered);
 
 var truepass = "";

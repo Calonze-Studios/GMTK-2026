@@ -6,5 +6,7 @@ anim_speed = 3;
 
 update_dialogue = function() {
 	if global.puzzle_solved[0]
-		dialogue_key = "json_solved"
+		dialogue_key = "json_solved";
+	if global.fuckedup > 2
+		dialogue_key = "json_broken";
 }

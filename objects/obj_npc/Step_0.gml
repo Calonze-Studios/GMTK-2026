@@ -28,3 +28,7 @@ if anim_style == 1 {
 			image_index -= image_number;
 	}
 }
+
+if global.fuckedup > 2 && (spr != spr_texton || global.flag[0] == 1) {
+	spr = spr_player_place
+}

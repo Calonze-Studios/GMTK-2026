@@ -7,3 +7,8 @@ if debug_check_pressed(ord("Q")) {
 }
 
 mult = clamp(mult, 0.2, 100)
+
+if room == room_bomb
+	visible = 0;
+else
+	visible = 1;

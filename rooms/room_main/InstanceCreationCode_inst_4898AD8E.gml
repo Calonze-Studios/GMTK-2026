@@ -7,4 +7,6 @@ update_dialogue = function() {
 	if global.puzzle_solved[3] {
 		dialogue_key = "texton_solved"
 	}
+	if global.fuckedup > 2
+		dialogue_key = "texton_broken";
 }

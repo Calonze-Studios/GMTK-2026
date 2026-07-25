@@ -80,6 +80,11 @@ check = function(){
 		instance_create_depth(command_arg1[command_on], command_arg2[command_on], 0, command_arg3[command_on]);
 		done = 1;
 	}
+		
+	if command_arg0[command_on] == "setflag" {
+		global.flag[command_arg1[command_on]] = command_arg2[command_on];
+		done = 1;
+	}
 	
 	first_doing = 0;
 	

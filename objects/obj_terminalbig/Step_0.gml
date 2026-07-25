@@ -10,7 +10,7 @@ if abs(0 - red_col) <= 0.1 {
 	}
 }
 
-if keyboard_check_pressed(vk_up) && (global.password_entered != global.password) && global.password_can_enter {
+if keyboard_check_pressed(vk_up) && (global.password_entered != global.password) && global.password_can_enter && !completed {
 	
 	red_timer = 0;
 	if string_length(global.password_entered) < string_length(global.password) {
@@ -30,13 +30,17 @@ if keyboard_check_pressed(vk_up) && (global.password_entered != global.password)
 	snd_play(snd_WRONG)
 	red_col = 1;
 	
-} else if keyboard_check_pressed(vk_up) && global.password_can_enter {
+} else if keyboard_check_pressed(vk_up) && global.password_can_enter && !completed {
 	
 	global.puzzle_solved[global.puzzle_on_id] = 1;
 	snd_play(snd_cheer);
+	completed = 1;
+	
+}
+
+if completed && !audio_is_playing(snd_cheer){
 	instance_destroy(scr_terminal_handlers(global.puzzle_on));
 	instance_destroy();
-	
 }
 
 if global.password_can_enter {
@@ -81,7 +85,7 @@ if global.password_can_enter {
 	}
 }
 
-if keyboard_check_pressed(vk_down) {
+if keyboard_check_pressed(vk_down) && !completed {
 	instance_destroy(scr_terminal_handlers(global.puzzle_on));
 	instance_destroy();
 }

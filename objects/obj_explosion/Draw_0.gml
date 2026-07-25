@@ -1,0 +1,1 @@
+draw_sprite(sprite_index, frame, global.cam_x, 0)

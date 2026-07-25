@@ -32,6 +32,9 @@ if xspd > 0
 	facing = 1;
 
 x += xspd;
+
+if room == room_bomb
+	x = clamp(x, 0, room_width - sprite_width)
 	
 if !walking
 	xspd = lerp(xspd, 0, 0.5);
@@ -48,7 +51,7 @@ if walking || frame % 2 != 0 {
 if instance_exists(obj_interactable) {
 	var nearest = instance_nearest(x, y, obj_interactable)
 
-	if point_distance(x, y, nearest.x, nearest.y) < 80 {
+	if point_distance(x, y, nearest.x, nearest.y) < 80 && global.canmove  {
 		global.hover_instance = nearest;
 	} else
 		global.hover_instance = -1;

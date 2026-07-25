@@ -10,7 +10,7 @@
   "compression":0,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":7.650544,
+  "duration":5.7144217,
   "exportDir":"",
   "name":"snd_cheer",
   "parent":{

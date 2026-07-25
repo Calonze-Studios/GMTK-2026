@@ -30,3 +30,7 @@ function c_terminalshow(_id){
 function c_ic(_x, _y, obj){
 	c_cmd("ic", _x, _y, obj);
 }
+
+function c_setflag(flag, val){
+	c_cmd("setflag", flag, val)
+}
