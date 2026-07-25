@@ -13,8 +13,8 @@
   "name":"obj_camera",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"overworld",
+    "path":"folders/Objects/overworld.yy",
   },
   "parentObjectId":null,
   "persistent":false,

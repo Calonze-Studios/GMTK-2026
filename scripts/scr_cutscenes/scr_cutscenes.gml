@@ -50,7 +50,10 @@ function scr_cutscenes(key){
 			c_msg("- oh hi{w20}\n- my {cR}password{cD}?{w20}\n- yeah idk...")
 			c_msg("- gotta be somewhere on my pc tho{w20}\n- im too tired to do this sry...")
 		break;
-		
+		case "png_terminal":
+			c_msg("- You turn on Penny's terminal.")
+			c_terminalshow("png")
+		break;		
 		
 		// WAVEY
 		case "wav_hint0":

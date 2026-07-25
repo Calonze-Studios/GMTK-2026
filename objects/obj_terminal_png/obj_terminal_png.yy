@@ -11,7 +11,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"terminal",
-    "path":"folders/Objects/terminal.yy",
+    "path":"folders/Objects/overworld/terminal.yy",
   },
   "parentObjectId":null,
   "persistent":false,

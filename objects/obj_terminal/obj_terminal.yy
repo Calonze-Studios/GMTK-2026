@@ -8,8 +8,8 @@
   "name":"obj_terminal",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"overworld",
+    "path":"folders/Objects/overworld.yy",
   },
   "parentObjectId":{
     "name":"obj_npc",

@@ -9,7 +9,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"pngpuzzle",
-    "path":"folders/Objects/pngpuzzle.yy",
+    "path":"folders/Objects/overworld/terminal/pngpuzzle.yy",
   },
   "parentObjectId":null,
   "persistent":false,

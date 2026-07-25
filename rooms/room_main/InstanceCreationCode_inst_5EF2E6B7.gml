@@ -1,0 +1,1 @@
+dialogue_key = "png_terminal"

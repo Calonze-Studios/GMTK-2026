@@ -8,8 +8,8 @@
   "name":"obj_jsonwall",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"bg",
+    "path":"folders/Objects/overworld/bg.yy",
   },
   "parentObjectId":null,
   "persistent":false,

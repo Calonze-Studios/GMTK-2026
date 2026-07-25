@@ -13,8 +13,8 @@
   "name":"obj_writer",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"ui",
+    "path":"folders/Objects/ui.yy",
   },
   "parentObjectId":null,
   "persistent":false,

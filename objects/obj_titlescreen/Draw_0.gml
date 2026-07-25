@@ -1,0 +1,8 @@
+draw_set_font(Font1)
+draw_set_color(c_white)
+draw_text(220+2,94+2,"ZIPBOMB")
+draw_text(220-2,94-2,"ZIPBOMB")
+draw_text(220+1,94+1,"ZIPBOMB")
+draw_text(220-1,94-1,"ZIPBOMB")
+draw_set_color(c_black)
+draw_text(220,94,"ZIPBOMB")
