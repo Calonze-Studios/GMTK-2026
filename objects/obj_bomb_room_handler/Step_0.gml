@@ -15,7 +15,6 @@ var complete = function(){
 	scr_cutscenes("finale");
 }
 
-
 for (var i = array_length(arr)-1; i >= 0; i--) {
 	if !file_exists(arr[i]) && global.fin_puzzle_progress >= i && (is_blue || i != 1) {
 		if global.fin_puzzle_progress == i {
