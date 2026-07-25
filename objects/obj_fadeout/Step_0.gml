@@ -7,7 +7,7 @@ if alpha >= 1 {
 		game_end()
 		exit;
 	}
-	else if _room == "title to main" {
+	if _room == "title to main" {
 		_room = room_main
 		
 		special = "beginning";
@@ -17,6 +17,16 @@ if alpha >= 1 {
 		instance_create_depth(100, 190, -5, obj_player);
 		
 		instance_destroy(obj_titlescreen);
+	}
+	if _room == "to bomb"{
+		_room = room_bomb;
+		
+		special = "bomb";
+	}
+	if _room == "final to main"{
+		_room = room_main;
+		
+		special = "final"
 	}
 	
 	room_goto(_room)

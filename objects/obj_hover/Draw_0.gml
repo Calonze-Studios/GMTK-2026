@@ -1,4 +1,4 @@
-if global.fuckedup > 2
+if !instance_exists(obj_hover)
 	exit;
 
 if global.hover_instance != -1 && global.canmove {

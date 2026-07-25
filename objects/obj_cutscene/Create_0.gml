@@ -85,6 +85,26 @@ check = function(){
 		global.flag[command_arg1[command_on]] = command_arg2[command_on];
 		done = 1;
 	}
+		
+	if command_arg0[command_on] == "change_global_var" {
+		if variable_global_exists(command_arg1[command_on])
+			variable_global_set(command_arg1[command_on], command_arg2[command_on])
+		
+		done = 1;
+	}
+	
+	if command_arg0[command_on] == "script_execute_ext" {
+		script_execute_ext(command_arg1[command_on], command_arg2[command_on]);
+		done = 1;
+	}
+		
+	if command_arg0[command_on] == "snd_play" {
+		if first_doing
+			snd_play(command_arg1[command_on]);
+		
+		if !audio_is_playing(command_arg1[command_on])
+			done = 1;
+	}
 	
 	first_doing = 0;
 	

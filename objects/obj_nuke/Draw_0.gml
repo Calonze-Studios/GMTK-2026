@@ -40,8 +40,11 @@ surface_reset_target();
 depth = 150;
 
 
-
-shader_set(shd_3dnuke);
+if global.fuckedup <= 2
+	shader_set(shd_3dnuke);
+	
 draw_surface(nukesurf, where, 0);
-shader_reset();
+
+if global.fuckedup <= 2
+	shader_reset();
 draw_sprite_ext(spr_nuke_darken, 0, where, 0, 1, 1, 0, c_white, 0.75);

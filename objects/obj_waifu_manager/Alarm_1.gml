@@ -1,0 +1,1 @@
+global.waifu_expression = "idle";

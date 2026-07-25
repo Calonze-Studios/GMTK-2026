@@ -34,3 +34,15 @@ function c_ic(_x, _y, obj){
 function c_setflag(flag, val){
 	c_cmd("setflag", flag, val)
 }
+
+function c_change_global_var(varname, varvalue){
+	c_cmd("change_global_var", varname, varvalue);
+}
+
+function c_se_ext(ind, array = []){
+	c_cmd("script_execute_ext", ind, array);
+}
+
+function c_snd_play(ind){
+	c_cmd("snd_play", ind)
+}

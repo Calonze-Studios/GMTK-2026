@@ -12,16 +12,75 @@ function scr_cutscenes(key){
 		// wAIfu
 		case "beginning":
 			c_setname("???")
-			c_msg("- Halloo!!!!{w20} This is a zipbomb!!! :3{w20}\n- I have activated a nuclear device inside your computer!!!{w20}\n- You have twenty minutes before it blows up! Have fun!!!!")
-			c_msg("- oh right!!!{w20} I also leaked all of your personal files to the player!{w20} Mwehehehe")
-			c_msg("- Feel free to look through whatever they had on their computers before you BLOW UP!!!!!")
-			c_msg("- It's not like you can get all the passwords in time hehehehe");
+			c_msg("- Halloo!!!!{w20} This is a zipbomb!!! :3{w20}\n- I have activated a nuclear device inside your computer!!!{w20}\n- You have twenty minutes before it blows up! Have fun!!!!", snd_m_nyan)
+			c_msg("- oh right!!!{w20} I also leaked all of your personal files to the player!{w20} Mwehehehe", snd_m_ohya)
+			c_msg("- Feel free to look through whatever they had on their computers before you BLOW UP!!!!!", snd_m_nyan)
+			c_msg("- It's not like you can get all the passwords in time hehehehe", snd_m_nyan);
 			c_setname("");
 			c_msg("- You have twenty minutes to {cR}DISARM THE BOMB{cD}!")
 			c_msg("- Disarm the bomb by getting all the PASSWORDS to your coworkers' {cR}TERMINALS{cD} using the files in the game's download folder!")
 			c_msg("- Move with the {cR}ARROW KEYS or WASD{cD}! Interact with {cR}UP or W{cD}!")
 			c_msg("- Good luck!")
 			c_ic(0, 0, obj_bombtimer)
+		break;
+		
+		case "final_puzzle":
+			global.timer = 15 * 60 + 5
+			
+			c_setname("wAIfu");
+			c_change_global_var("waifu_expression", "talk")
+			c_msg("- Oh! You got here...{w20}\n- Well, I suppose I'll explode now!", snd_m_explode);
+			c_msg("- ...", snd_m_silent);
+			
+			c_change_global_var("waifu_expression", "angry")
+			c_msg("- Why doesn't it work?!{w20}\n- Oh...{w20} The timer's off...{w20}\n- Whatever, I can just {cR}reboot it{cD}!", snd_m_reboot);
+			
+			c_ic(0, 0, obj_bombtimer);
+			
+			c_change_global_var("waifu_expression", "talk")
+			c_msg("- {cR}15 minutes{cD} until detonation!{w20}\n- And I'll {cR}EXPLODE{cD} if you {cR}delete the wrong file{cD}! mwehehehe", snd_m_15);
+			
+			c_change_global_var("waifu_expression", "idle")
+			c_setname("Wavey");
+			c_msg("- You have to like {cR}DESTROY the files{cD} man!")
+			
+			c_setname("wAIfu")
+			c_change_global_var("waifu_expression", "angry")
+			c_msg("- DON'T TELL 'EM THAT!!!{w20}\nWhatever!{w20} The order is {cR}hidden{cD}!{w20} And if you mess up it's GAME OVER!!!", snd_m_gameover)
+			
+			c_change_global_var("waifu_expression", "idle")
+			c_setname("Penny G")
+			c_msg("- so like{w20}\n- yea{w20}\n- you gotta be careful and like sure u r deleting them in the {cR}right order{cD} n stuff")
+			c_msg("- theres like some {cR}clues{cD} in our folders...{w20} u should {cR}look around{cD}")
+			
+			c_setname("wAIfu")
+			c_change_global_var("waifu_expression", "talk")
+			c_msg("- ORRRRRRRR,{w15} you could just start deleting random files for funnies!", snd_m_funnies)
+			
+			c_change_global_var("waifu_expression", "idle")
+			c_setname("Jason")
+			c_msg("- I left you a {cR}list{cD}.{w20} In {cR}wAIfu's folder{cD}.{w20}\n- Feel free to use it.{w20} To write down the {cR}ORDER{cD}.")
+			c_msg("- Not like I care if the bomb explodes or not.")
+			
+			c_setname("wAIfu")
+			c_change_global_var("waifu_expression", "shock")
+			c_msg("- You WHAT?!{w20}\n- ... WHATEVER!{w20} It's not like you can {cR}FIND{cD} the {cR}ORDER{cD}.{w20} It's IMPOSSIBLE to enter!", snd_m_order);
+			c_change_global_var("waifu_expression", "idle")
+		break;
+		
+		case "finale":
+			c_setname("wAIfu")
+			c_change_global_var("waifu_expression", "glitch")
+			c_msg("- NO DONT DELETE ME NOOOOO0000")
+			c_se_ext(scr_room_goto_fade, ["final to main"])
+		break;
+		
+		case "all_puzzles":
+			with obj_bombtimer
+				leave();
+			c_msg("- You have completed every TERMINAL.")
+			c_msg("- A flying platform has appeared near {cR}Penny{cD}.")
+			c_msg("- It's time to finish this.")
 		break;
 		
 		
@@ -68,6 +127,9 @@ function scr_cutscenes(key){
 				c_setname("Texton H")
 				c_msg("- Everything has been destroyed.")
 				c_msg("- If you wish to restore it, please restart the     ")
+				c_msg("- You have completed the\n                       game,")
+				c_snd_play(snd_cheer_crash);
+				c_se_ext(show_error, ["GAME DONE", 1])
 				c_setflag(0, 1)
 			} else {
 				c_msg(" ")
