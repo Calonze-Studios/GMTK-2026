@@ -26,3 +26,7 @@ function c_setname(str){
 function c_terminalshow(_id){
 	c_cmd("terminalshow", _id);
 }
+
+function c_ic(_x, _y, obj){
+	c_cmd("ic", _x, _y, obj);
+}

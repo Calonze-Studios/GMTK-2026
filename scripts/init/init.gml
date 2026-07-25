@@ -26,6 +26,7 @@ global.hover_instance = -1;
 global.canmove = 1;
 
 global.textfont = font_add_sprite_ext(spr_nukefont, "AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz0123456789.,!?+-_'\":", 0, -2)
+global.bombfont = font_add_sprite_ext(spr_bombfont, "0123456789:", 1, -2)
 
 draw_set_font(global.textfont)
 
@@ -43,3 +44,5 @@ global.password_can_enter = 1;
 
 global.puzzle_on = ""
 global.puzzle_on_id = 0;
+
+global.timer = 1200

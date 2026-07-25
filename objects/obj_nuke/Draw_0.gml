@@ -31,7 +31,11 @@ surface_reset_target();
 
 depth = 150;
 
+var where = global.cam_x + 110;
+if room == room_titlescreen
+	where = 110;
+
 shader_set(shd_3dnuke);
-draw_surface(nukesurf, global.cam_x + 110, 0);
+draw_surface(nukesurf, where, 0);
 shader_reset();
-draw_sprite_ext(spr_nuke_darken, 0, global.cam_x + 110, 0, 1, 1, 0, c_white, 0.75);
+draw_sprite_ext(spr_nuke_darken, 0, where, 0, 1, 1, 0, c_white, 0.75);

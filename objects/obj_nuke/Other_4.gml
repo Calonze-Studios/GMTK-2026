@@ -1,0 +1,1 @@
+mult = (room_width/sprite_get_width(spr_nuke_texture_place))
