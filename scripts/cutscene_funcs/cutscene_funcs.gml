@@ -1,6 +1,7 @@
 function begin_cutscene(){
 	global.textname = "";
 	global.txtsnd = [snd_blip];
+	global.txtspd = 1;
 	
 	while instance_exists(obj_cutscene)
 		instance_destroy(obj_cutscene);
@@ -17,6 +18,10 @@ function c_cmd(arg0, arg1 = 0, arg2 = 0, arg3 = 0){
 
 function c_msg(str, audio_clip = -1){
 	c_cmd("msg", str, audio_clip)
+}
+
+function c_msg_skip(str, audio_clip = -1){
+	c_cmd("msg_skip", str, audio_clip);
 }
 
 function c_setname(str){

@@ -34,7 +34,7 @@ check = function(){
 		done = 1;
 	}
 	
-	if command_arg0[command_on] == "msg" {
+	if command_arg0[command_on] == "msg" || command_arg0[command_on] == "msg_skip" {
 		if first_doing{
 			var writer = instance_create_depth(global.cam_x + 10, 217, -10000, obj_writer);
 			writer.str = command_arg1[command_on];
@@ -60,7 +60,7 @@ check = function(){
 			}
 		}
 		
-		if obj_writer.done && (up_p() || down_h()){
+		if obj_writer.done && (up_p() || down_h() || command_arg0[command_on] == "msg_skip"){
 			done = 1;
 		}
 	}

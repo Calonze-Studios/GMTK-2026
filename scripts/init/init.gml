@@ -37,7 +37,7 @@ function trueinit() {
 	global.textname = "";
 
 	global.puzzle_progress = [0, 0, 0, 0]; // JSON, PNG, WAV, TXT
-	global.puzzle_solved = [0, 1, 1, 1];   // JSON, PNG, WAV, TXT
+	global.puzzle_solved = [1, 1, 1, 1];   // JSON, PNG, WAV, TXT
 
 	global.fin_puzzle_progress = 0;
 

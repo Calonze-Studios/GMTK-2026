@@ -71,7 +71,7 @@ function scr_cutscenes(key){
 		case "finale":
 			c_setname("wAIfu")
 			c_change_global_var("waifu_expression", "glitch")
-			c_msg("- NO DONT DELETE ME NOOOOO0000")
+			c_msg_skip("- NO DONT DELETE ME{sp3} NOOOO{sp5}O00{sp9}00000--")
 			c_se_ext(scr_room_goto_fade, ["final to main"])
 		break;
 		
