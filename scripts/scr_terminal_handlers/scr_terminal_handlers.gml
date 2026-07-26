@@ -10,13 +10,13 @@ function scr_terminal_handlers(_id){
 	}
 	
 	if _id == "wav" {
-		global.password = "AAAA"
+		global.password = "0000"
 		global.puzzle_on_id = 2
 		
 		return obj_terminal_wav
 	}
 	if _id == "png" {
-		global.password = "FOREFORE";
+		global.password = "00000000";
 		global.puzzle_on_id = 1;
 		
 		return obj_terminal_png

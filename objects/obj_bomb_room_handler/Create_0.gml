@@ -1,1 +1,3 @@
-is_blue = 1;
+is_blue = 0;
+
+alarm[0] = 1;

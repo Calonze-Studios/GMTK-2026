@@ -9,6 +9,12 @@ if completed{
 	exit;
 }
 
+if global.puzzle_on_id == 2 {
+	draw_text(global.cam_x + 134, 108, "PLEASE ENTER THE PASSWORD\nIN THE CORRECT LOCATION.")
+	
+	draw_set_color(c_white);
+	exit;	
+}
 
 var pass = string(global.password_entered);
 

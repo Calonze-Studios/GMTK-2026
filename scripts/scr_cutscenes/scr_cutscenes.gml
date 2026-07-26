@@ -25,7 +25,7 @@ function scr_cutscenes(key){
 		break;
 		
 		case "final_puzzle":
-			global.timer = 15 * 60 + 5
+			global.timer = 15 * 60
 			
 			c_setname("wAIfu");
 			c_change_global_var("waifu_expression", "talk")
@@ -34,8 +34,6 @@ function scr_cutscenes(key){
 			
 			c_change_global_var("waifu_expression", "angry")
 			c_msg("- Why doesn't it work?!{w20}\n- Oh...{w20} The timer's off...{w20}\n- Whatever, I can just {cR}reboot it{cD}!", snd_m_reboot);
-			
-			c_ic(0, 0, obj_bombtimer);
 			
 			c_change_global_var("waifu_expression", "talk")
 			c_msg("- {cR}15 minutes{cD} until detonation!{w20}\n- And I'll {cR}EXPLODE{cD} if you {cR}delete the wrong file{cD}! mwehehehe", snd_m_15);
@@ -66,13 +64,19 @@ function scr_cutscenes(key){
 			c_change_global_var("waifu_expression", "shock")
 			c_msg("- You WHAT?!{w20}\n- ... WHATEVER!{w20} It's not like you can {cR}FIND{cD} the {cR}ORDER{cD}.{w20} It's IMPOSSIBLE to enter!", snd_m_order);
 			c_change_global_var("waifu_expression", "idle")
+			
+			c_ic(0, 0, obj_bombtimer);
 		break;
 		
 		case "finale":
-			c_setname("wAIfu")
-			c_change_global_var("waifu_expression", "glitch")
-			c_msg_skip("- NO DONT DELETE ME{sp3} NOOOO{sp5}O00{sp9}00000--")
-			c_se_ext(scr_room_goto_fade, ["final to main"])
+			c_setname("wAIfu");
+			c_change_global_var("waifu_expression", "angry");
+			c_msg("- You...{w20} YOU FOOL!!{w20} Do you REALIZE what you've done?!");
+			c_msg("- It's not just me...{w20} or my VOICECLIPS you've deleted!!");
+			c_msg_skip("- It's...{w20} it's EVERYTHING!!!{w20} No, no...{w45}");
+			c_change_global_var("waifu_expression", "glitch");
+			c_msg_skip("- NOOOOO!! STOP!! I DONT WANNA BE DELETED{sp3} NOOOO{sp5}O00{sp9}00000--{w30}");
+			c_se_ext(scr_room_goto_fade, ["final to main"]);
 		break;
 		
 		case "all_puzzles":
@@ -87,7 +91,7 @@ function scr_cutscenes(key){
 		// TEXTON
 		case "texton_hint":
 			c_setname("Texton H");
-			c_msg("Th'name's Texton.{w20} Texton Hale.")
+			c_msg("Th'name's Texton.")
 			c_msg("- Hmmmmmmmmmmmm?{w20} Whuzzat?{w20} M'{cR}password{cD}?");
 			c_msg("- Oh,{w15} 'tis simple,{w15} 'twas...{w20} 'twas...");
 			c_msg("- ... Oh,{w15} m'afraid I'm getting too {cR}old{cD},{w15} young'n...");
@@ -140,27 +144,37 @@ function scr_cutscenes(key){
 		// PENNY
 		case "png_hint0":
 			c_setname("Penny G")
-			if global.puzzle_progress[0] == 0 {
+			if global.png_dial == 0 {
 				c_msg("- oh hi im penny!{w20}\n- what,{w15} my {cR}password{cD}?{w20}\n- yeah idk...")
 				c_msg("- gotta be somewhere on my pc tho{w20}\n- im too tired to do this sry...")
 			}
-			if global.puzzle_progress[0] == 1 {
-				c_msg("- oh that blanket?")
-				c_msg("- yea idk why thats there...")
-				c_msg("")
+			if global.png_dial == 1 {
+				c_msg("- oh that {cR}cloth{cD}?")
+				c_msg("- yea im not sure why thats there sry...")
+				c_msg("- you can {cR}throw it out{cD} ig")
+				c_msg("- just {cR}dont touch the pictures{cD}!!")
 			}
-			if global.puzzle_progress[0] == 2 {
+			if global.png_dial == 2 {
+				c_msg("- huh what{w20}\n- the password fields covered up by a tree?")
+				c_msg("- {cR}dont get rid of that{cD}... i like it this way...")
 				
+				c_setname("???")
+				c_msg("- OH YA!{w20}\n- I made it so that some of the files {cR}detonate the bomb early{cD} when {cR}deleted{cD}!", snd_m_ohya);
+				c_msg("- I don't want you to just delete everything!{w20}\n- That'd be BOOORRRRING!!!!", snd_m_ohya);
+				
+				c_setname("Penny G")
+				c_msg("- though hm i wonder...{w20}\n- is there any way to {cR}make the picture transparent{cD} or smth")
 			}
-			if global.puzzle_progress == 3 {
-				
+			if global.png_dial == 3 {
+				c_msg("- the passwords too short?{w20}\n- oh yeah right... mines 8 characters long...")
+				c_msg("- do u think theres any way to make it {cR}longer{cD}?{w20} like {cR}twice longer{cD}?")
 			}
 			
 		break;
 		case "png_solved":
 			c_setname("Penny G");
 			c_msg("- thx dearie")
-			c_msg("- did you know im only 23 years old?")
+			c_msg("- did you know im only {cY}23 years old{cD}?")
 			c_msg("- thats what being a photographer does to u")
 		break;
 		case "png_terminal":
@@ -174,15 +188,27 @@ function scr_cutscenes(key){
 		case "png_broken":
 			c_setname("			.png")
 			c_msg("Dialogue not found for obj_png_npc");
-			c_msg("- gotta be somewhere on my pc tho{w20}\n- im too tired to do this sry...")
+			c_msg("- gotta be s o u think thei wonder...res any wa");
 		break;
 		
 		// WAVEY
 		case "wav_hint0":
 			c_setname("Wavey")
-			c_msg("- Yo yo YO!{w20} The name's WAVEY!");
-			c_msg("- My {cR}password{cD}?{w20} Hidden in the {cR}TUNES{cD}!")
-			c_msg("- You gotta catch the {cR}WAVE{cD},{w15} baby!{w20}\n- IF you catch my DRIFT,{w15} that is!")
+			if global.wav_dial == 0 {
+				c_msg("- Yo-yo-YO!{w20} The name's WAVEY!");
+				c_msg("- My {cR}password{cD}?{w20} Hidden in the {cR}TUNES{cD}!")
+				c_msg("- You gotta catch the {cR}WAVE{cD},{w15} baby!{w20}\n- IF you catch my DRIFT,{w15} that is!")
+			} else {
+				c_msg("- Yo! Yo-Yo-YO!{w20}\n- I TOLD YOU, dude!{w20}\n- I TOLD YOU about TUNES!")
+				c_msg("- You gotta listen to {cR}THEM{cD}!{w20} The {cR}TUNES{cD}!{w20}\n- That's {cR}where the password is{cD}!")
+				c_msg("- It {cR}transcends LIFE{cD},{w15} you {cR}HEAR{cD} the key!")
+			}
+		break;
+		case "wav_solved":
+			c_setname("Wavey")
+			c_msg("- YEAH!!!{w20} DUDE!!!{w20}- THAT'S why I told you to LISTEN TO YOUR HEART!")
+			c_msg("- ...")
+			c_msg("- I killed a man for this haircut.")
 		break;
 		case "wav_terminal":
 			if global.puzzle_solved[2] == 0 {
@@ -194,8 +220,8 @@ function scr_cutscenes(key){
 		break;
 		case "wav_broken":
 			c_setname("c_setname(wav)")
-			c_msg("c_msg(Hello world!)")
-			c_msg("c_msg(c_msg(c_msg(c_msg")
+			c_msg("c_msg(\"Hello world!\")")
+			c_msg("c_msg(\"c_msg(\"c_msg(\"c_msg(\"")
 		break;
 		
 		
@@ -223,8 +249,8 @@ function scr_cutscenes(key){
 		break;
 		case "json_broken":
 			c_setname("\"json_npc\"")
-			c_msg("Hello! This is debug text! If you encounter this, please\n    the developers!")
-			c_msg("Hello! This is debug text! If you encounter this, please\n    the developers!")
+			c_msg("Hello! This is debug text! If you encounter this, please\n     the developers!")
+			c_msg("Hello! This is debug text! If you encounter this, please\n     the developers!")
 		break;
 		
 		

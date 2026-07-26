@@ -7,7 +7,7 @@ dialogue_key = "wav_hint0"
 
 update_dialogue = function() {
 	if global.puzzle_solved[2]  {
-		
+		dialogue_key = "wav_solved"
 	}
 	if global.fuckedup > 2
 		dialogue_key = "wav_broken";

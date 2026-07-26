@@ -10,7 +10,7 @@ function trueinit() {
 
 
 	window_set_size(1080, 608);
-	window_set_caption("ZIPBOMB");
+	window_set_caption("ZIPBOMB.zip");
 
 
 	global.controller_connected = 0;
@@ -37,7 +37,11 @@ function trueinit() {
 	global.textname = "";
 
 	global.puzzle_progress = [0, 0, 0, 0]; // JSON, PNG, WAV, TXT
-	global.puzzle_solved = [1, 1, 1, 1];   // JSON, PNG, WAV, TXT
+	global.puzzle_solved = [0, 0, 0, 0];   // JSON, PNG, WAV, TXT
+	
+	global.wav_dial = 0;
+	global.png_dial = 0;
+	
 
 	global.fin_puzzle_progress = 0;
 
@@ -48,7 +52,7 @@ function trueinit() {
 	global.puzzle_on = ""
 	global.puzzle_on_id = 0;
 
-	global.timer = 1200
+	global.timer = 20 * 60;
 
 	global.exploded = 0;
 	global.exploded_how = "";
@@ -58,7 +62,7 @@ function trueinit() {
 	global.waifu_expression = "idle";
 	
 	if (!directory_exists(game_save_id+"BACKUP")){
-		scr_recursive_copy(working_directory+"TERMINALS",game_save_id+"BACKUP");
+		scr_recursive_copy(program_directory+"TERMINALS",game_save_id+"BACKUP");
 	}
 }
 

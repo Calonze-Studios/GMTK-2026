@@ -9,3 +9,8 @@ red_timer = 0;
 error_msg = "";
 
 completed = 0;
+
+
+finish = function(){
+	
+}

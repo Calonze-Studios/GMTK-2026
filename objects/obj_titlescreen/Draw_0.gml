@@ -28,7 +28,7 @@ for (var i = 0; i < array_length(buttons); i++) {
 draw_set_halign(fa_left);
 draw_set_valign(fa_top);
 
-draw_sprite(spr_logo_place, 0, 270, 20);
+draw_sprite(spr_logo_place, 0, 270, 2);
 
 
 if hover != -1 && mouse_check_button_pressed(mb_left) {
