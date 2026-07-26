@@ -52,4 +52,5 @@ function delete_process_directory(path){
 		}
 	}
 	directory_destroy(path);
+	//show_debug_message($"Deleted {path}")
 }

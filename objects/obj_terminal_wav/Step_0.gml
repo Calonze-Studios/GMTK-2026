@@ -1,6 +1,6 @@
 global.password_can_enter = 0;
 
-var wavmask = working_directory + "TERMINALS/wavey/Unused/*.wav"
+var wavmask = game_save_id + "TERMINALS/wavey/Unused/*.wav"
 
 var wav = filename_name(file_find_first(wavmask, 0))
 

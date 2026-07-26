@@ -1,9 +1,9 @@
-var _cover_name = working_directory + "TERMINALS/penny/cloth.png"
+var _cover_name = game_save_id + "TERMINALS/penny/cloth.png"
 
-var _note1 = working_directory + "TERMINALS/penny/note1.png"
-var _note2 = working_directory + "TERMINALS/penny/note2.png"
-var _note2otherpossibility = working_directory + "TERMINALS/penny/note1 copy.png"
-var _note2onemorepossibility = working_directory + "TERMINALS/penny/note1 (Copy).png"
+var _note1 = game_save_id + "TERMINALS/penny/note1.png"
+var _note2 = game_save_id + "TERMINALS/penny/note2.png"
+var _note2otherpossibility = game_save_id + "TERMINALS/penny/note1 copy.png"
+var _note2onemorepossibility = game_save_id + "TERMINALS/penny/note1 (Copy).png"
 
 //stickynote
 
@@ -27,7 +27,7 @@ if file_exists(_note2) || file_exists(_note2otherpossibility) || file_exists(_no
 
 // tree
 
-var _mask = working_directory + "TERMINALS/penny/tree.*"
+var _mask = game_save_id + "TERMINALS/penny/tree.*"
 var _tree_name = filename_name(file_find_first(_mask,fa_none));
 var _tree_ext = filename_ext(_tree_name)
 

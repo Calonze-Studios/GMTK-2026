@@ -1,13 +1,13 @@
-var arr = [working_directory + "TERMINALS/bomb/blue.ico",
-		   working_directory + "TERMINALS/bomb/orange.png",
-		   working_directory + "TERMINALS/bomb/shortcut.lnk",
-		   working_directory + "TERMINALS/bomb/list.ini",
-		   working_directory + "TERMINALS/bomb/musician.gif",
-		   working_directory + "TERMINALS/bomb/site.html",
-		   working_directory + "TERMINALS/bomb/hello.mp4",
-		   working_directory + "TERMINALS/bomb/bear.webp",
-		   working_directory + "TERMINALS/bomb/reference.cloud",
-		   working_directory + "TERMINALS/bomb/data.win"]
+var arr = [game_save_id + "TERMINALS/bomb/blue.ico",
+		   game_save_id + "TERMINALS/bomb/orange.png",
+		   game_save_id + "TERMINALS/bomb/shortcut.lnk",
+		   game_save_id + "TERMINALS/bomb/list.ini",
+		   game_save_id + "TERMINALS/bomb/musician.gif",
+		   game_save_id + "TERMINALS/bomb/site.html",
+		   game_save_id + "TERMINALS/bomb/hello.mp4",
+		   game_save_id + "TERMINALS/bomb/bear.webp",
+		   game_save_id + "TERMINALS/bomb/reference.cloud",
+		   game_save_id + "TERMINALS/bomb/data.win"]
 
 var complete = function(){
 	with obj_bombtimer
