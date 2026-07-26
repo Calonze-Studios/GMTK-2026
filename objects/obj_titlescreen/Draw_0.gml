@@ -11,7 +11,7 @@ draw_set_halign(fa_middle);
 draw_set_valign(fa_center);
 
 for (var i = 0; i < array_length(buttons); i++) {
-	var tempy = 150 + (70 * i);
+	var tempy = 175 + (70 * i);
 	var tempx = 270;
 	
 	var w = 2.5 * sprite_get_width(spr_nineslice_dialogue_middleorigin);
@@ -28,7 +28,7 @@ for (var i = 0; i < array_length(buttons); i++) {
 draw_set_halign(fa_left);
 draw_set_valign(fa_top);
 
-draw_sprite(spr_logo_place, 0, 270, 2);
+draw_sprite(spr_logo_place, 0, 270, 27);
 
 
 if hover != -1 && mouse_check_button_pressed(mb_left) {
