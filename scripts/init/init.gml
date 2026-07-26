@@ -62,7 +62,7 @@ function trueinit() {
 	global.waifu_expression = "idle";
 	
 	if (!directory_exists(game_save_id+"BACKUP")){
-		scr_recursive_copy(program_directory+"TERMINALS",game_save_id+"BACKUP");
+		scr_recursive_copy(working_directory+"TERMINALS",game_save_id+"BACKUP");
 	}
 	
 	var sounds = [mus_retired, mus_terminal, mus_broken, mus_retired_final_room];
