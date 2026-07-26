@@ -1,4 +1,7 @@
-var texture = spr_nuke_texture_place;
+var texture = spr_nuke_texture;
+if global.fuckedup > 2
+	texture = spr_nuke_texture_place
+
 var textureoverlay = spr_nuke_texture_overlay_place;
 var texture_width = sprite_get_width(texture);
 

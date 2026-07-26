@@ -1,6 +1,6 @@
 frametimer++;
 
-if frametimer >= 10 {
+if frametimer >= 4 {
 	frametimer = 0;
 	frame++;
 }

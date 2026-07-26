@@ -16,7 +16,7 @@ function trueinit() {
 	global.controller_connected = 0;
 	global.controller_index = 0;
 
-	global.debug = 1;
+	global.debug = 0;
 
 
 	global.debug_message = []
@@ -26,7 +26,7 @@ function trueinit() {
 
 	global.canmove = 1;
 
-	global.textfont = font_add_sprite_ext(spr_nukefont, "AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz0123456789.,!?+-_'\":()", 0, -2)
+	global.textfont = font_add_sprite_ext(spr_nukefont, "AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz0123456789.,!?+-_'\":()%", 0, -2)
 	global.bombfont = font_add_sprite_ext(spr_bombfont, "0123456789:", 1, -2)
 
 	draw_set_font(global.textfont)
@@ -43,7 +43,7 @@ function trueinit() {
 	global.png_dial = 0;
 	
 
-	global.fin_puzzle_progress = 0;
+	global.fin_puzzle_progress = -1;
 
 	global.password = "";
 	global.password_entered = "";

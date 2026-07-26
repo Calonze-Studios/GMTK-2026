@@ -1,12 +1,9 @@
 -- FILE STUFF --
-Feel completely free to edit whatever you want in the "TERMINALS" folder. 
-It restores itself whenever you launch the game or get a game over.
+In order to access the game's files, press Windows + R, and type 
+"%localappdata%/ZIPBOMB zip" (without the "" signs)
 
-PLEASE don't delete anything from the "BACKUPS (don't touch)" folder.
+PLEASE don't delete anything from the "BACKUP" folder.
 The game is very meta, but please don't touch it. It's how the meta stuff works in the first place.
-Also, if you haven't played the game yet, don't look through it, there'll be some spoilers.
-If you DID end up deleting something from it... you're gonna have to re-download the game sorry buddy.
-
 
 P.S. This isn't like an in-universe thing ok you actually shouldn't mess with the folder. Please.
 
@@ -20,25 +17,21 @@ There's gamepad controls, technically, but you'll also need to use the keyboard 
 
 
 -- GUIDE
-If the game's puzzles prove too hard for you, there's a guide available at:
-
-You can also read it in the walkthrough folder. There's hints available also.
+You can also read it in the solutions folder. 
 
 
 -- CREDITS --
 Programming - cdc, fox, egg
 
-Music - msvdds0210, cdc
-Guest composer - onlin
+Music - onlin, cdc
+Guest composer - msvdds0210
 
 Art - egg, cdc, fox, em0x, weird luke
 Guest artists - Joun, edolphin, onlin
 
 Writing - egg, em0x
 
-Voice acting - mura
+Voice acting - mura, Notmyname
 
 Other resources -  pexels, freesound.org
 Game over screen font - https://fontstruct.com/fontstructions/show/2322862/lucida-bsod
-
-Guide - Notmyname

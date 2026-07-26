@@ -17,8 +17,13 @@ function scr_cutscenes(key){
 			c_msg("- Feel free to look through whatever they had on their computers before you BLOW UP!!!!!", snd_m_nyan)
 			c_msg("- It's not like you can get all the passwords in time hehehehe", snd_m_nyan);
 			c_setname("");
+			c_msg("- Hello!{w20} It's me, the 4th-wall-breaking narrator.")
 			c_msg("- You have twenty minutes to {cR}DISARM THE BOMB{cD}!")
-			c_msg("- Disarm the bomb by getting all the PASSWORDS to your coworkers' {cR}TERMINALS{cD} using the files in the game's download folder!")
+			c_msg("- Disarm the bomb by getting all the PASSWORDS to your coworkers' {cR}TERMINALS{cD}.")
+			c_msg("- In order to do that, you need to use the game's FILES.")
+			c_msg("- I'll only say this once, so listen carefully...")
+			c_msg("- Press Windows + R.{w20} Type\n\"%localappdata%/GMTK-2026\".{w20} Open \"TERMINALS\".")
+			c_msg("- If you want me to repeat that...{w20} read the readme.txt included with the game.")
 			c_msg("- Move with the {cR}ARROW KEYS or WASD{cD}! Interact with {cR}UP or W{cD}!")
 			c_msg("- Good luck!")
 			c_ic(0, 0, obj_bombtimer)
