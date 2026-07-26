@@ -182,6 +182,7 @@
     {"id":{"name":"spr_ebear","path":"sprites/spr_ebear/spr_ebear.yy",},},
     {"id":{"name":"spr_explosion","path":"sprites/spr_explosion/spr_explosion.yy",},},
     {"id":{"name":"spr_finalpath","path":"sprites/spr_finalpath/spr_finalpath.yy",},},
+    {"id":{"name":"spr_icon","path":"sprites/spr_icon/spr_icon.yy",},},
     {"id":{"name":"spr_jason","path":"sprites/spr_jason/spr_jason.yy",},},
     {"id":{"name":"spr_jsonwall","path":"sprites/spr_jsonwall/spr_jsonwall.yy",},},
     {"id":{"name":"spr_lightoff","path":"sprites/spr_lightoff/spr_lightoff.yy",},},
