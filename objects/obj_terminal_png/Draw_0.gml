@@ -15,14 +15,13 @@ if file_exists(_note2) || file_exists(_note2otherpossibility) || file_exists(_no
 {
 	if global.puzzle_progress[1] == 1 && !notesolved
 	{
-		notesolved = true
 		global.puzzle_progress[1] = 2
 	}
 	if global.puzzle_progress[1] == 2 && !notesolved
 	{
-		notesolved = true	
 		global.puzzle_progress[1] = 3
-	}	
+	}
+	notesolved = true
 	draw_sprite(spr_stickynote2,0,global.cam_x+130+78+5+sprite_get_width(spr_stickynote1),140)
 }
 
@@ -38,14 +37,13 @@ if _tree_ext == ".png"
 	draw_text(global.cam_x+155,255,"tree.png")
 	if global.puzzle_progress[1] == 1 && !treesolved //to avoid sequencebreaks
 	{
-		treesolved = true
 		global.puzzle_progress[1] = 2
 	}
 	if global.puzzle_progress[1] == 2 && !treesolved //to avoid sequencebreaks
 	{
-		treesolved = true
 		global.puzzle_progress[1] = 3
 	}
+	treesolved = true
 }else
 {
 	draw_sprite(spr_treejpg, 0, global.cam_x+130, 115);
