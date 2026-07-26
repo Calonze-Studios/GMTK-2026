@@ -1,0 +1,6 @@
+Wavey has the entire game's OST in his folder.
+
+If you listen to the unused song, you get the message "Rename the current file to the following message"
+the following message is in morse code, which translates to "countdown".
+
+You can rename the file to countdown.wav (capitalization doesn't matter)

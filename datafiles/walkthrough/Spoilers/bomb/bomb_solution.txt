@@ -1,0 +1,29 @@
+The final puzzle, the bomb.
+
+First you delete blue.ico.
+Second, you turn orange.png BLUE (with an image editor like Photopea) and then delete it.
+The first two are referenced in Texton's ORDER in the court
+
+Third, you delete shortcut.lnk
+It leads to a song that's 3:33 long.
+
+Fourth, you delete list.ini
+It has itself in the 4th position
+
+Fifth, you delete msvdds0210.gif
+He made the 5th track on the OST
+
+Sixth, you delete site.html
+It has every mention of the number 6 nulled out.
+
+Seventh, you delete hello.mp4
+Jason's file has miracle set to 7 and miracle is repeated a lot in the video.
+
+Eighth, you delete bear.webp
+Penny's folder has a picture of 8 bears.
+
+Ninth you delete reference.cloud
+It's a reference to the phrase Cloud Nine.
+
+Tenth, you delete data.win
+This is referenced in Texton's ORDER in the court ("and at the END, EVERYTHING disappeared.")

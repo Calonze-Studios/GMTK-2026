@@ -1,0 +1,8 @@
+Jason has papers on his wall. Each paper points to something in his .json file.
+
+The first thing is "Cats".
+The second is "Wavey".
+The third is "Ghost".
+The fourth is "Bats".
+
+So the solution is NICE-DJAY-AAAH-FLYS.

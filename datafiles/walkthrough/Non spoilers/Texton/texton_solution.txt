@@ -1,0 +1,6 @@
+Texton has a lot of text files in his folder, with a date attached to each.
+You have to sort them from oldest to newest, and take the first letter of each text file in order.
+You get, "ITSTHEMONOLOGUEFROMHAMLETYOUDIMWIT"
+The monologue from "Hamlet" is, of course, "To Be Or Not To Be, That Is The Question"
+
+The password is "TBONTBTITQ", the first letter of each word of the monologue.

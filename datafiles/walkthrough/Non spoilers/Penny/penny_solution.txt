@@ -1,0 +1,10 @@
+Penny's monitor has a cloth covering the screen.
+You can remove the cloth by going into her folder and deleting cloth.png.
+
+Next, there's a tree covering the screen.
+To make it, stop, doing that, you can rename the tree.jpg file into tree.png.
+
+And finally, there's a sticky note for the password, but it's too short.
+You can duplicate note1.png. If that doesn't work, you should try to rename it to note2.png.
+
+The password is FOREFORE.
