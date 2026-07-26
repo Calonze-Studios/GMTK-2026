@@ -1,6 +1,9 @@
 depth = 20
 
 var rails = spr_bg_rails;
+if global.fuckedup > 2
+	rails = spr_bg_rails_fakeplace;
+
 var rails_w = sprite_get_width(rails);
 var rails_h = sprite_get_height(rails);
 

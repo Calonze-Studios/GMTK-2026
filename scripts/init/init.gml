@@ -37,7 +37,7 @@ function trueinit() {
 	global.textname = "";
 
 	global.puzzle_progress = [0, 0, 0, 0]; // JSON, PNG, WAV, TXT
-	global.puzzle_solved = [0, 0, 0, 0];   // JSON, PNG, WAV, TXT
+	global.puzzle_solved = [1, 1, 1, 1];   // JSON, PNG, WAV, TXT
 	
 	global.wav_dial = 0;
 	global.png_dial = 0;
@@ -64,6 +64,15 @@ function trueinit() {
 	if (!directory_exists(game_save_id+"BACKUP")){
 		scr_recursive_copy(program_directory+"TERMINALS",game_save_id+"BACKUP");
 	}
+	
+	var sounds = [mus_retired, mus_terminal, mus_broken, mus_retired_final_room];
+	for (var i = 0; i < array_length(sounds); i++) {
+		if audio_is_playing(sounds[i])
+			audio_stop_sound(sounds[i]);
+	}
+	
+	
+	audio_play_sound(mus_terminal, 0, 1);
 }
 
 function init() {

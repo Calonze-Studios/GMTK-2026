@@ -1,2 +1,1 @@
-draw_text(4, 4, global.fin_puzzle_progress);
-
+draw_sprite(spr_bulb, global.fin_puzzle_progress, 0, 0)

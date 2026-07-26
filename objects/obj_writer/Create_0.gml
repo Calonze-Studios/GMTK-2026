@@ -27,7 +27,7 @@ textcol = c_white; // Text color
 charxsep = 10; // X separation between characters
 charysep = 17; // Y separation between characters
 
-skippable = 0;
+skippable = 1;
 
 writingdone_pencil_frame = 0;
 writingdone_pencil_timer = 0;

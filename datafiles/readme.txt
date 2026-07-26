@@ -22,6 +22,7 @@ There's gamepad controls, technically, but you'll also need to use the keyboard 
 -- GUIDE
 If the game's puzzles prove too hard for you, there's a guide available at:
 
+You can also read it in the walkthrough folder. There's hints available also.
 
 
 -- CREDITS --
@@ -38,5 +39,6 @@ Writing - egg, em0x
 Voice acting - mura
 
 Other resources -  pexels, freesound.org
+Game over screen font - https://fontstruct.com/fontstructions/show/2322862/lucida-bsod
 
 Guide - Notmyname

@@ -2,9 +2,9 @@
   "$GMSprite":"v2",
   "%Name":"spr_m_waifu_place_talk",
   "bboxMode":0,
-  "bbox_bottom":123,
+  "bbox_bottom":303,
   "bbox_left":0,
-  "bbox_right":171,
+  "bbox_right":539,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -12,15 +12,80 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"48193920-68f2-45eb-88d4-f6ed07798c47","name":"48193920-68f2-45eb-88d4-f6ed07798c47","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"v1","%Name":"02ae3ae7-c5d7-40b5-8ba0-aa4cde5dccd4","name":"02ae3ae7-c5d7-40b5-8ba0-aa4cde5dccd4","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"3a73f537-dddd-4700-89ef-ab2e4b2c4a5e","name":"3a73f537-dddd-4700-89ef-ab2e4b2c4a5e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"a73c45ce-e2ee-48a2-ac1a-e65f5a202814","name":"a73c45ce-e2ee-48a2-ac1a-e65f5a202814","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"4a3a1ac5-a9a9-4aa2-a889-22c9375666c6","name":"4a3a1ac5-a9a9-4aa2-a889-22c9375666c6","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"0950bf71-dbd9-4a5f-9e26-5b21f97f850f","name":"0950bf71-dbd9-4a5f-9e26-5b21f97f850f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"a21a65c8-42f8-4533-b00b-95d2a9f24f7f","name":"a21a65c8-42f8-4533-b00b-95d2a9f24f7f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"04169f79-5a32-458a-ae12-cf2092786b46","name":"04169f79-5a32-458a-ae12-cf2092786b46","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"7355b39d-773b-4d62-a076-d7470c61183a","name":"7355b39d-773b-4d62-a076-d7470c61183a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"033457d4-0c46-4db8-808f-7d43486c0e4a","name":"033457d4-0c46-4db8-808f-7d43486c0e4a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"b5d47584-236f-456c-828b-87059a16ccf7","name":"b5d47584-236f-456c-828b-87059a16ccf7","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"f13adf0b-70b9-4495-b37a-e99e02bf580e","name":"f13adf0b-70b9-4495-b37a-e99e02bf580e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"58a7d55b-cb12-4417-b78c-f7484f1018c7","name":"58a7d55b-cb12-4417-b78c-f7484f1018c7","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"a851f755-bd02-4f0b-9388-90b6b45a35c7","name":"a851f755-bd02-4f0b-9388-90b6b45a35c7","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"b58751ec-03e6-496b-8d26-20be7c525119","name":"b58751ec-03e6-496b-8d26-20be7c525119","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"c9a9fa82-623f-4d56-86d7-78ce45752e20","name":"c9a9fa82-623f-4d56-86d7-78ce45752e20","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"c2e0b853-3c95-40bc-98c9-cee477ddc955","name":"c2e0b853-3c95-40bc-98c9-cee477ddc955","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"cbcb7e80-cc2d-4d19-8a6e-0958bb7e173c","name":"cbcb7e80-cc2d-4d19-8a6e-0958bb7e173c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"c93c1d53-727b-4fdd-9dca-afa5f7b24f1f","name":"c93c1d53-727b-4fdd-9dca-afa5f7b24f1f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"2ff2f4fb-743d-490c-90c1-6f9f4fee5d82","name":"2ff2f4fb-743d-490c-90c1-6f9f4fee5d82","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"6e6bf267-09ba-47ae-86d9-3249f2c79ee6","name":"6e6bf267-09ba-47ae-86d9-3249f2c79ee6","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"e6c7b878-4436-44ad-b89f-75c916c8481e","name":"e6c7b878-4436-44ad-b89f-75c916c8481e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"f8538fd3-2349-4963-a6a6-2fb253b351f4","name":"f8538fd3-2349-4963-a6a6-2fb253b351f4","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"69bcfd83-6282-4ac2-a816-4623b16ae4b0","name":"69bcfd83-6282-4ac2-a816-4623b16ae4b0","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"2dc02d5d-1bdf-4e41-962a-c033c259c58f","name":"2dc02d5d-1bdf-4e41-962a-c033c259c58f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"7a95de10-2278-453c-b427-d6599ee5f569","name":"7a95de10-2278-453c-b427-d6599ee5f569","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"c44f5c9f-f23c-43f7-b6ba-69858d2a9994","name":"c44f5c9f-f23c-43f7-b6ba-69858d2a9994","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"f18f0e59-415e-4875-90d8-2cd2eec60c91","name":"f18f0e59-415e-4875-90d8-2cd2eec60c91","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"fddc1f1a-3b0c-43b5-858f-7e648c5f8dfe","name":"fddc1f1a-3b0c-43b5-858f-7e648c5f8dfe","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"4ae4ee42-34cd-4f02-a415-d691a75b6369","name":"4ae4ee42-34cd-4f02-a415-d691a75b6369","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"ed8c92cb-80eb-4efd-b2a9-63c7f96ae525","name":"ed8c92cb-80eb-4efd-b2a9-63c7f96ae525","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"d6ea3b0b-959b-43ad-844e-c98babb33b93","name":"d6ea3b0b-959b-43ad-844e-c98babb33b93","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"533ce014-c727-4276-9bab-5564b4fea20e","name":"533ce014-c727-4276-9bab-5564b4fea20e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"e24aad88-6b10-4773-a5bc-903f521017ad","name":"e24aad88-6b10-4773-a5bc-903f521017ad","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"1ad9194e-fdfe-49ca-b00b-abd1424b2522","name":"1ad9194e-fdfe-49ca-b00b-abd1424b2522","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"f1c10462-f5a9-4454-a718-7e7db34c3a70","name":"f1c10462-f5a9-4454-a718-7e7db34c3a70","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"4963f3f6-2238-45ec-a91e-c7308ea979d6","name":"4963f3f6-2238-45ec-a91e-c7308ea979d6","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"62c0e819-3f46-4b42-a297-1ad6ce03721e","name":"62c0e819-3f46-4b42-a297-1ad6ce03721e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"9ddb61af-7434-438e-9d70-4979f455e166","name":"9ddb61af-7434-438e-9d70-4979f455e166","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"87ae363a-ecf8-4740-bd36-5fc2f33add9c","name":"87ae363a-ecf8-4740-bd36-5fc2f33add9c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"33e3b2de-4251-4949-93dd-5f7d394e4d63","name":"33e3b2de-4251-4949-93dd-5f7d394e4d63","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"54e3c6df-33ec-4db1-8c03-987ef2132684","name":"54e3c6df-33ec-4db1-8c03-987ef2132684","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"75f0d8cb-f10f-4849-8549-3cc97d0821cf","name":"75f0d8cb-f10f-4849-8549-3cc97d0821cf","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"bacd0269-3dcb-4868-b460-131c7660bf4f","name":"bacd0269-3dcb-4868-b460-131c7660bf4f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"c237c55c-40eb-43dd-89b3-25757e08430f","name":"c237c55c-40eb-43dd-89b3-25757e08430f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"c09e9d3a-73c6-44ad-a25a-3283f5033d26","name":"c09e9d3a-73c6-44ad-a25a-3283f5033d26","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"9a726d9b-cf65-45fe-9725-3c1f3c3cb81a","name":"9a726d9b-cf65-45fe-9725-3c1f3c3cb81a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"aca77fd3-99ff-43d4-a269-45233754fd4b","name":"aca77fd3-99ff-43d4-a269-45233754fd4b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"cef5f5cb-1a11-4cb2-8515-c91cc2235f3f","name":"cef5f5cb-1a11-4cb2-8515-c91cc2235f3f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"9d20455a-4efa-43f3-b408-50f24a1998ed","name":"9d20455a-4efa-43f3-b408-50f24a1998ed","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"30edec6a-b145-4334-a805-b49715692e77","name":"30edec6a-b145-4334-a805-b49715692e77","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"6eb45a90-89f8-4b7e-b8b8-17aac01a2f6d","name":"6eb45a90-89f8-4b7e-b8b8-17aac01a2f6d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"98270236-0104-4679-8ae2-4f1b6134c331","name":"98270236-0104-4679-8ae2-4f1b6134c331","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"60b56c27-9ad2-4adb-b648-4636ae5b163b","name":"60b56c27-9ad2-4adb-b648-4636ae5b163b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"185706ef-bedc-4a07-9bb3-700ea4d7d668","name":"185706ef-bedc-4a07-9bb3-700ea4d7d668","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"05c2e0ae-b48b-44e5-8794-3aba563597b3","name":"05c2e0ae-b48b-44e5-8794-3aba563597b3","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"64fff39d-eace-4fd3-9369-10a6cb9d9db8","name":"64fff39d-eace-4fd3-9369-10a6cb9d9db8","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"ee37afb4-04c2-4521-8c75-1dcbf5445cb1","name":"ee37afb4-04c2-4521-8c75-1dcbf5445cb1","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"600ad2ff-d8e0-4331-8a09-abb9d2aac477","name":"600ad2ff-d8e0-4331-8a09-abb9d2aac477","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"0889e1d3-b0a5-4330-aea6-3451c9fd8963","name":"0889e1d3-b0a5-4330-aea6-3451c9fd8963","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"20c31dd1-7283-4c23-9113-14ec41a7cf82","name":"20c31dd1-7283-4c23-9113-14ec41a7cf82","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"2c4b0f29-f868-42d0-9720-6edf8fa52516","name":"2c4b0f29-f868-42d0-9720-6edf8fa52516","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"a655e7a8-b461-4971-b338-1aa9dbbe71c5","name":"a655e7a8-b461-4971-b338-1aa9dbbe71c5","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"46057af1-25e9-4d3d-bee0-1896a79b4be2","name":"46057af1-25e9-4d3d-bee0-1896a79b4be2","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"4a1b3b0c-5b93-46c9-ac4a-a2d70a1f4dd8","name":"4a1b3b0c-5b93-46c9-ac4a-a2d70a1f4dd8","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"88b44825-1fdd-434e-aad7-2176b88e46f1","name":"88b44825-1fdd-434e-aad7-2176b88e46f1","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"919caf3b-3ee4-40de-8ebb-1d5bd7a533b7","name":"919caf3b-3ee4-40de-8ebb-1d5bd7a533b7","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"a6db8f5b-34f2-493c-98fc-a549d75f9ec1","name":"a6db8f5b-34f2-493c-98fc-a549d75f9ec1","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"9cfa6ecc-98d4-4eae-98eb-02151b3c0b03","name":"9cfa6ecc-98d4-4eae-98eb-02151b3c0b03","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
-  "height":124,
+  "height":304,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"19bc3697-4f4f-43ff-aadb-c03f27484234","blendMode":0,"displayName":"default","isLocked":false,"name":"19bc3697-4f4f-43ff-aadb-c03f27484234","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"b0e0f80c-0b9a-4a54-bb92-099401f62301","blendMode":0,"displayName":"default","isLocked":false,"name":"b0e0f80c-0b9a-4a54-bb92-099401f62301","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"spr_m_waifu_place_talk",
   "nineSlice":null,
@@ -50,7 +115,7 @@
     },
     "eventStubScript":null,
     "eventToFunction":{},
-    "length":2.0,
+    "length":67.0,
     "lockOrigin":false,
     "moments":{
       "$KeyframeStore<MomentsEventKeyframe>":"",
@@ -60,7 +125,7 @@
     },
     "name":"spr_m_waifu_place_talk",
     "playback":1,
-    "playbackSpeed":10.0,
+    "playbackSpeed":4.0,
     "playbackSpeedType":0,
     "resourceType":"GMSequence",
     "resourceVersion":"2.0",
@@ -70,11 +135,206 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"48193920-68f2-45eb-88d4-f6ed07798c47","path":"sprites/spr_m_waifu_place_talk/spr_m_waifu_place_talk.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"7c3cdd64-0b05-4253-a9f2-504feb713617","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"3a73f537-dddd-4700-89ef-ab2e4b2c4a5e","path":"sprites/spr_m_waifu_place_talk/spr_m_waifu_place_talk.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"3d1f3bfd-cb1d-4e01-80f5-aeb346dd95c6","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"02ae3ae7-c5d7-40b5-8ba0-aa4cde5dccd4","path":"sprites/spr_m_waifu_place_talk/spr_m_waifu_place_talk.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"707905e8-54c2-4964-8722-b77284c68781","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"a73c45ce-e2ee-48a2-ac1a-e65f5a202814","path":"sprites/spr_m_waifu_place_talk/spr_m_waifu_place_talk.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"c613050b-efe5-4c7a-adc4-e47e23de0a76","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"4a3a1ac5-a9a9-4aa2-a889-22c9375666c6","path":"sprites/spr_m_waifu_place_talk/spr_m_waifu_place_talk.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"2269c6c4-062c-45ba-9ea3-9c2f48f4fad2","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"0950bf71-dbd9-4a5f-9e26-5b21f97f850f","path":"sprites/spr_m_waifu_place_talk/spr_m_waifu_place_talk.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"be595c33-c1b8-446f-ad4f-7b3150acb7f7","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"a21a65c8-42f8-4533-b00b-95d2a9f24f7f","path":"sprites/spr_m_waifu_place_talk/spr_m_waifu_place_talk.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"b543e2fe-8aba-4a22-aa9d-9400e1528985","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"04169f79-5a32-458a-ae12-cf2092786b46","path":"sprites/spr_m_waifu_place_talk/spr_m_waifu_place_talk.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"b2ae3b6e-e37d-495e-83b8-501decc9c683","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"7355b39d-773b-4d62-a076-d7470c61183a","path":"sprites/spr_m_waifu_place_talk/spr_m_waifu_place_talk.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"311f4d31-bd51-4b39-8707-07d519a7917a","IsCreationKey":false,"Key":6.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"033457d4-0c46-4db8-808f-7d43486c0e4a","path":"sprites/spr_m_waifu_place_talk/spr_m_waifu_place_talk.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"dbcb7812-8854-450e-82c2-a497cf59d6cf","IsCreationKey":false,"Key":7.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"b5d47584-236f-456c-828b-87059a16ccf7","path":"sprites/spr_m_waifu_place_talk/spr_m_waifu_place_talk.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"2989d91b-4a93-41aa-82fc-0074be2f626b","IsCreationKey":false,"Key":8.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"f13adf0b-70b9-4495-b37a-e99e02bf580e","path":"sprites/spr_m_waifu_place_talk/spr_m_waifu_place_talk.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"9b7c12ea-588e-4760-9dfe-aa7ce46141c9","IsCreationKey":false,"Key":9.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"58a7d55b-cb12-4417-b78c-f7484f1018c7","path":"sprites/spr_m_waifu_place_talk/spr_m_waifu_place_talk.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"4dfbae33-d292-48fe-8177-b29b49fd35bf","IsCreationKey":false,"Key":10.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"a851f755-bd02-4f0b-9388-90b6b45a35c7","path":"sprites/spr_m_waifu_place_talk/spr_m_waifu_place_talk.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"45c2fdff-b3f9-433c-bec3-61010323f27d","IsCreationKey":false,"Key":11.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"b58751ec-03e6-496b-8d26-20be7c525119","path":"sprites/spr_m_waifu_place_talk/spr_m_waifu_place_talk.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"c6ca8585-7d6e-4195-9bc4-810fa8401d19","IsCreationKey":false,"Key":12.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"c9a9fa82-623f-4d56-86d7-78ce45752e20","path":"sprites/spr_m_waifu_place_talk/spr_m_waifu_place_talk.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"281c87ef-6ed6-4d4f-8b66-5b00825b6253","IsCreationKey":false,"Key":13.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"c2e0b853-3c95-40bc-98c9-cee477ddc955","path":"sprites/spr_m_waifu_place_talk/spr_m_waifu_place_talk.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"92de7ae3-1bb4-4696-9841-fd9d5ef563ea","IsCreationKey":false,"Key":14.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"cbcb7e80-cc2d-4d19-8a6e-0958bb7e173c","path":"sprites/spr_m_waifu_place_talk/spr_m_waifu_place_talk.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"5e8c3ac1-9218-4129-9e75-b7edeed71d91","IsCreationKey":false,"Key":15.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"c93c1d53-727b-4fdd-9dca-afa5f7b24f1f","path":"sprites/spr_m_waifu_place_talk/spr_m_waifu_place_talk.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"271dce35-abe7-44b1-baa1-90e4cca6acbe","IsCreationKey":false,"Key":16.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"2ff2f4fb-743d-490c-90c1-6f9f4fee5d82","path":"sprites/spr_m_waifu_place_talk/spr_m_waifu_place_talk.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"091505f4-e670-4bf6-80f5-d741376a99ab","IsCreationKey":false,"Key":17.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"6e6bf267-09ba-47ae-86d9-3249f2c79ee6","path":"sprites/spr_m_waifu_place_talk/spr_m_waifu_place_talk.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"ac80e864-61fc-4f9d-89a5-ee973e2d8b9a","IsCreationKey":false,"Key":18.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"e6c7b878-4436-44ad-b89f-75c916c8481e","path":"sprites/spr_m_waifu_place_talk/spr_m_waifu_place_talk.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"9a1808c3-e329-4383-b58f-f5efa845211a","IsCreationKey":false,"Key":19.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"f8538fd3-2349-4963-a6a6-2fb253b351f4","path":"sprites/spr_m_waifu_place_talk/spr_m_waifu_place_talk.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"54780be0-caeb-469f-9bc5-36930cdeaa57","IsCreationKey":false,"Key":20.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"69bcfd83-6282-4ac2-a816-4623b16ae4b0","path":"sprites/spr_m_waifu_place_talk/spr_m_waifu_place_talk.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"707ab37e-3d8e-41ab-8146-7e96e67aabd2","IsCreationKey":false,"Key":21.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"2dc02d5d-1bdf-4e41-962a-c033c259c58f","path":"sprites/spr_m_waifu_place_talk/spr_m_waifu_place_talk.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"482bcf49-c8ad-4c3e-b4a8-5d521c1901ff","IsCreationKey":false,"Key":22.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"7a95de10-2278-453c-b427-d6599ee5f569","path":"sprites/spr_m_waifu_place_talk/spr_m_waifu_place_talk.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"59e8730a-b9bd-4fb1-8f60-0c2571d6443d","IsCreationKey":false,"Key":23.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"c44f5c9f-f23c-43f7-b6ba-69858d2a9994","path":"sprites/spr_m_waifu_place_talk/spr_m_waifu_place_talk.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"b4f6dc00-907a-43a9-9c4f-8e2d01f2671c","IsCreationKey":false,"Key":24.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"f18f0e59-415e-4875-90d8-2cd2eec60c91","path":"sprites/spr_m_waifu_place_talk/spr_m_waifu_place_talk.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"009e7a82-151f-4957-9066-81d6bc15c8be","IsCreationKey":false,"Key":25.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"fddc1f1a-3b0c-43b5-858f-7e648c5f8dfe","path":"sprites/spr_m_waifu_place_talk/spr_m_waifu_place_talk.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"0911387f-b935-49e2-a00b-793aa52d1d04","IsCreationKey":false,"Key":26.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"4ae4ee42-34cd-4f02-a415-d691a75b6369","path":"sprites/spr_m_waifu_place_talk/spr_m_waifu_place_talk.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"551f1be7-4ab9-4fea-b297-c9bf40603789","IsCreationKey":false,"Key":27.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"ed8c92cb-80eb-4efd-b2a9-63c7f96ae525","path":"sprites/spr_m_waifu_place_talk/spr_m_waifu_place_talk.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"baa8f959-438f-4995-b2c7-ad61cdc8f99e","IsCreationKey":false,"Key":28.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"d6ea3b0b-959b-43ad-844e-c98babb33b93","path":"sprites/spr_m_waifu_place_talk/spr_m_waifu_place_talk.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"5483628d-9981-471a-b3ce-1c8a93ceaa1d","IsCreationKey":false,"Key":29.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"533ce014-c727-4276-9bab-5564b4fea20e","path":"sprites/spr_m_waifu_place_talk/spr_m_waifu_place_talk.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"2e9b76e6-592c-409b-911d-6ef63c88e315","IsCreationKey":false,"Key":30.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"e24aad88-6b10-4773-a5bc-903f521017ad","path":"sprites/spr_m_waifu_place_talk/spr_m_waifu_place_talk.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"ab90f68a-00d7-4026-8bd8-c46efa1a6479","IsCreationKey":false,"Key":31.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"1ad9194e-fdfe-49ca-b00b-abd1424b2522","path":"sprites/spr_m_waifu_place_talk/spr_m_waifu_place_talk.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"ad1c5494-bec8-4d01-8426-010488e7d789","IsCreationKey":false,"Key":32.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"f1c10462-f5a9-4454-a718-7e7db34c3a70","path":"sprites/spr_m_waifu_place_talk/spr_m_waifu_place_talk.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"f90c0d79-b75c-46ad-8a6c-be3fa563c7d7","IsCreationKey":false,"Key":33.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"4963f3f6-2238-45ec-a91e-c7308ea979d6","path":"sprites/spr_m_waifu_place_talk/spr_m_waifu_place_talk.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"a85cf877-3cbd-4d0d-9ecb-4a3cdc7f099b","IsCreationKey":false,"Key":34.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"62c0e819-3f46-4b42-a297-1ad6ce03721e","path":"sprites/spr_m_waifu_place_talk/spr_m_waifu_place_talk.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"1d4e3fca-4413-491f-81f0-e7bafd23a16f","IsCreationKey":false,"Key":35.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"9ddb61af-7434-438e-9d70-4979f455e166","path":"sprites/spr_m_waifu_place_talk/spr_m_waifu_place_talk.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"9daf47d4-be8d-4810-bc20-c178a1c61beb","IsCreationKey":false,"Key":36.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"87ae363a-ecf8-4740-bd36-5fc2f33add9c","path":"sprites/spr_m_waifu_place_talk/spr_m_waifu_place_talk.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"a2b296f6-de2f-41df-bb05-03c59da44ecb","IsCreationKey":false,"Key":37.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"33e3b2de-4251-4949-93dd-5f7d394e4d63","path":"sprites/spr_m_waifu_place_talk/spr_m_waifu_place_talk.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"eeba49b1-e75c-4c0b-824b-dcf2736d6d01","IsCreationKey":false,"Key":38.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"54e3c6df-33ec-4db1-8c03-987ef2132684","path":"sprites/spr_m_waifu_place_talk/spr_m_waifu_place_talk.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"98a4fe40-2a71-48a8-bce7-b9a1936881bb","IsCreationKey":false,"Key":39.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"75f0d8cb-f10f-4849-8549-3cc97d0821cf","path":"sprites/spr_m_waifu_place_talk/spr_m_waifu_place_talk.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"b8b9a866-5cd6-446a-9546-6f958e362159","IsCreationKey":false,"Key":40.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"bacd0269-3dcb-4868-b460-131c7660bf4f","path":"sprites/spr_m_waifu_place_talk/spr_m_waifu_place_talk.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"8dca46a2-413c-43e1-b7b5-8df6cf516d14","IsCreationKey":false,"Key":41.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"c237c55c-40eb-43dd-89b3-25757e08430f","path":"sprites/spr_m_waifu_place_talk/spr_m_waifu_place_talk.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"17f5d7e1-2d5b-4983-872c-97e5d11e7713","IsCreationKey":false,"Key":42.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"c09e9d3a-73c6-44ad-a25a-3283f5033d26","path":"sprites/spr_m_waifu_place_talk/spr_m_waifu_place_talk.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"64396080-8953-4d20-a1c0-d1c606cfb00e","IsCreationKey":false,"Key":43.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"9a726d9b-cf65-45fe-9725-3c1f3c3cb81a","path":"sprites/spr_m_waifu_place_talk/spr_m_waifu_place_talk.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"e649cf1c-bd2d-4a4f-ae5c-8425d102f519","IsCreationKey":false,"Key":44.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"aca77fd3-99ff-43d4-a269-45233754fd4b","path":"sprites/spr_m_waifu_place_talk/spr_m_waifu_place_talk.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"43061f46-dad6-4b64-b5f5-cf19c5666ae9","IsCreationKey":false,"Key":45.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"cef5f5cb-1a11-4cb2-8515-c91cc2235f3f","path":"sprites/spr_m_waifu_place_talk/spr_m_waifu_place_talk.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"8a51a89a-d024-43bd-9ecd-dbde7b17f096","IsCreationKey":false,"Key":46.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"9d20455a-4efa-43f3-b408-50f24a1998ed","path":"sprites/spr_m_waifu_place_talk/spr_m_waifu_place_talk.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"6ac401c0-dd96-49cb-a4d8-093ab36511f2","IsCreationKey":false,"Key":47.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"30edec6a-b145-4334-a805-b49715692e77","path":"sprites/spr_m_waifu_place_talk/spr_m_waifu_place_talk.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"9d73bb87-a658-49f0-9a90-3184f5ad42d5","IsCreationKey":false,"Key":48.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"6eb45a90-89f8-4b7e-b8b8-17aac01a2f6d","path":"sprites/spr_m_waifu_place_talk/spr_m_waifu_place_talk.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"6fbfb06e-b49a-4bff-a36e-d057f2811191","IsCreationKey":false,"Key":49.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"98270236-0104-4679-8ae2-4f1b6134c331","path":"sprites/spr_m_waifu_place_talk/spr_m_waifu_place_talk.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"e7cd19ed-8fb4-45fa-ae11-37d68903a947","IsCreationKey":false,"Key":50.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"60b56c27-9ad2-4adb-b648-4636ae5b163b","path":"sprites/spr_m_waifu_place_talk/spr_m_waifu_place_talk.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"ffe7f4c6-feea-4dcb-8349-091a4a0533ad","IsCreationKey":false,"Key":51.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"185706ef-bedc-4a07-9bb3-700ea4d7d668","path":"sprites/spr_m_waifu_place_talk/spr_m_waifu_place_talk.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"7645771d-cec6-4d2d-ae2c-10084822b0ec","IsCreationKey":false,"Key":52.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"05c2e0ae-b48b-44e5-8794-3aba563597b3","path":"sprites/spr_m_waifu_place_talk/spr_m_waifu_place_talk.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"e3e0b4bc-3dad-4608-b085-1a46547eb4dc","IsCreationKey":false,"Key":53.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"64fff39d-eace-4fd3-9369-10a6cb9d9db8","path":"sprites/spr_m_waifu_place_talk/spr_m_waifu_place_talk.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"a3d50f15-6a29-49a1-8534-c5767bbe7504","IsCreationKey":false,"Key":54.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"ee37afb4-04c2-4521-8c75-1dcbf5445cb1","path":"sprites/spr_m_waifu_place_talk/spr_m_waifu_place_talk.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"6eabeb9d-dd49-4922-a331-3b799f209e0f","IsCreationKey":false,"Key":55.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"600ad2ff-d8e0-4331-8a09-abb9d2aac477","path":"sprites/spr_m_waifu_place_talk/spr_m_waifu_place_talk.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"25233b29-0a88-4409-8add-0a21d1c15ea7","IsCreationKey":false,"Key":56.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"0889e1d3-b0a5-4330-aea6-3451c9fd8963","path":"sprites/spr_m_waifu_place_talk/spr_m_waifu_place_talk.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"43cc733a-9484-4145-bb51-fe4b45718b05","IsCreationKey":false,"Key":57.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"20c31dd1-7283-4c23-9113-14ec41a7cf82","path":"sprites/spr_m_waifu_place_talk/spr_m_waifu_place_talk.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"00c5f0ea-6352-4925-a0f9-fb90f3b25b6c","IsCreationKey":false,"Key":58.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"2c4b0f29-f868-42d0-9720-6edf8fa52516","path":"sprites/spr_m_waifu_place_talk/spr_m_waifu_place_talk.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"0f2d4c4f-7292-43f0-b469-28d31c78f389","IsCreationKey":false,"Key":59.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"a655e7a8-b461-4971-b338-1aa9dbbe71c5","path":"sprites/spr_m_waifu_place_talk/spr_m_waifu_place_talk.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"d943fa37-bf08-496e-9aa6-1efb9fee6c7f","IsCreationKey":false,"Key":60.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"46057af1-25e9-4d3d-bee0-1896a79b4be2","path":"sprites/spr_m_waifu_place_talk/spr_m_waifu_place_talk.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"34b18069-9c1d-409b-9217-04953895bcbb","IsCreationKey":false,"Key":61.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"4a1b3b0c-5b93-46c9-ac4a-a2d70a1f4dd8","path":"sprites/spr_m_waifu_place_talk/spr_m_waifu_place_talk.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"916f0b9b-781d-4268-bce2-d6e8e6a53cd5","IsCreationKey":false,"Key":62.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"88b44825-1fdd-434e-aad7-2176b88e46f1","path":"sprites/spr_m_waifu_place_talk/spr_m_waifu_place_talk.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"74b4f405-ad64-4684-8b85-be3ba4d0d5c2","IsCreationKey":false,"Key":63.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"919caf3b-3ee4-40de-8ebb-1d5bd7a533b7","path":"sprites/spr_m_waifu_place_talk/spr_m_waifu_place_talk.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"05616e8d-31c7-4a78-8c20-aa41ad96cfdb","IsCreationKey":false,"Key":64.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"a6db8f5b-34f2-493c-98fc-a549d75f9ec1","path":"sprites/spr_m_waifu_place_talk/spr_m_waifu_place_talk.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"de566787-3384-4ede-8a78-292c961f8336","IsCreationKey":false,"Key":65.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"9cfa6ecc-98d4-4eae-98eb-02151b3c0b03","path":"sprites/spr_m_waifu_place_talk/spr_m_waifu_place_talk.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"af85084b-a7a5-46be-8193-d0aae1c2731b","IsCreationKey":false,"Key":66.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
@@ -90,5 +350,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":172,
+  "width":540,
 }

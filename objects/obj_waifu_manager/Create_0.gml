@@ -1,10 +1,10 @@
-depth = -5;
+depth = 10;
 
 expression = "idle"
 spr = spr_m_waifu_place_idle
 
 frame_timer = 0;
-frame_timer_needed = 30;
+frame_timer_needed = 5;
 
 frame = 0;
 

@@ -33,6 +33,9 @@ if keyboard_check_pressed(vk_up) && (global.password_entered != global.password)
 } else if keyboard_check_pressed(vk_up) && global.password_can_enter && !completed {
 	
 	global.puzzle_solved[global.puzzle_on_id] = 1;
+	if audio_is_playing(mus_terminal){
+		audio_stop_sound(mus_terminal)	
+	}
 	snd_play(snd_cheer);
 	completed = 1;
 	

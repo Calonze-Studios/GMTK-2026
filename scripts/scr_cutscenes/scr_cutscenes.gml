@@ -32,7 +32,7 @@ function scr_cutscenes(key){
 			c_msg("- Oh! You got here...{w20}\n- Well, I suppose I'll explode now!", snd_m_explode);
 			c_msg("- ...", snd_m_silent);
 			
-			c_change_global_var("waifu_expression", "angry")
+			c_change_global_var("waifu_expression", "talk")
 			c_msg("- Why doesn't it work?!{w20}\n- Oh...{w20} The timer's off...{w20}\n- Whatever, I can just {cR}reboot it{cD}!", snd_m_reboot);
 			
 			c_change_global_var("waifu_expression", "talk")
@@ -43,7 +43,7 @@ function scr_cutscenes(key){
 			c_msg("- You have to like {cR}DESTROY the files{cD} man!")
 			
 			c_setname("wAIfu")
-			c_change_global_var("waifu_expression", "angry")
+			c_change_global_var("waifu_expression", "talk")
 			c_msg("- DON'T TELL 'EM THAT!!!{w20}\nWhatever!{w20} The order is {cR}hidden{cD}!{w20} And if you mess up it's GAME OVER!!!", snd_m_gameover)
 			
 			c_change_global_var("waifu_expression", "idle")
@@ -61,7 +61,7 @@ function scr_cutscenes(key){
 			c_msg("- Not like I care if the bomb explodes or not.")
 			
 			c_setname("wAIfu")
-			c_change_global_var("waifu_expression", "shock")
+			c_change_global_var("waifu_expression", "talk")
 			c_msg("- You WHAT?!{w20}\n- ... WHATEVER!{w20} It's not like you can {cR}FIND{cD} the {cR}ORDER{cD}.{w20} It's IMPOSSIBLE to enter!", snd_m_order);
 			c_change_global_var("waifu_expression", "idle")
 			
@@ -70,10 +70,11 @@ function scr_cutscenes(key){
 		
 		case "finale":
 			c_setname("wAIfu");
-			c_change_global_var("waifu_expression", "angry");
+			c_change_global_var("waifu_expression", "talk");
 			c_msg("- You...{w20} YOU FOOL!!{w20} Do you REALIZE what you've done?!");
 			c_msg("- It's not just me...{w20} or my VOICECLIPS you've deleted!!");
 			c_msg_skip("- It's...{w20} it's EVERYTHING!!!{w20} No, no...{w45}");
+			c_se_ext(audio_stop_sound, [mus_retired_final_room])
 			c_change_global_var("waifu_expression", "glitch");
 			c_msg_skip("- NOOOOO!! STOP!! I DONT WANNA BE DELETED{sp3} NOOOO{sp5}O00{sp9}00000--{w30}");
 			c_se_ext(scr_room_goto_fade, ["final to main"]);
@@ -131,7 +132,10 @@ function scr_cutscenes(key){
 				c_setname("Texton H")
 				c_msg("- Everything has been destroyed.")
 				c_msg("- If you wish to restore it, please restart the     ")
-				c_msg("- You have completed the\n                       game,")
+				c_setflag(0, 1)
+				c_setname("")
+				c_msg("- You have completed the game!")
+				c_se_ext(audio_stop_sound, [mus_broken])
 				c_snd_play(snd_cheer_crash);
 				c_se_ext(show_error, ["GAME DONE", 1])
 				c_setflag(0, 1)

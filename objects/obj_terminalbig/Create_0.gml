@@ -10,7 +10,8 @@ error_msg = "";
 
 completed = 0;
 
-
-finish = function(){
-	
+if audio_is_playing(mus_retired){
+	audio_stop_sound(mus_retired)	
 }
+
+audio_play_sound(mus_terminal, 0, 1);

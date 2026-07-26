@@ -1,1 +1,1 @@
-draw_sprite(spr, frame, x, y)
+draw_sprite(spr, frame, 0, 0)
