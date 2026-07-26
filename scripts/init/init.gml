@@ -55,9 +55,11 @@ function trueinit() {
 	
 	global.flag = [0];
 	
-	global.backups = working_directory + "BACKUPS/don't touch/really/";
-	
 	global.waifu_expression = "idle";
+	
+	if (!directory_exists(game_save_id+"BACKUP")){
+		scr_recursive_copy(working_directory+"TERMINALS",game_save_id+"BACKUP");
+	}
 }
 
 function init() {

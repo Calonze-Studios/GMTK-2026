@@ -51,6 +51,7 @@
     {"name":"inputs","order":1,"path":"scripts/inputs/inputs.yy",},
     {"name":"is_vowel","order":5,"path":"scripts/is_vowel/is_vowel.yy",},
     {"name":"scr_explode","order":9,"path":"scripts/scr_explode/scr_explode.yy",},
+    {"name":"scr_recursive_copy","order":11,"path":"scripts/scr_recursive_copy/scr_recursive_copy.yy",},
     {"name":"scr_room_goto_fade","order":8,"path":"scripts/scr_room_goto_fade/scr_room_goto_fade.yy",},
     {"name":"scr_startagain","order":10,"path":"scripts/scr_startagain/scr_startagain.yy",},
     {"name":"scr_terminal_handlers","order":7,"path":"scripts/scr_terminal_handlers/scr_terminal_handlers.yy",},

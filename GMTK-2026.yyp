@@ -120,6 +120,7 @@
     {"id":{"name":"is_vowel","path":"scripts/is_vowel/is_vowel.yy",},},
     {"id":{"name":"scr_cutscenes","path":"scripts/scr_cutscenes/scr_cutscenes.yy",},},
     {"id":{"name":"scr_explode","path":"scripts/scr_explode/scr_explode.yy",},},
+    {"id":{"name":"scr_recursive_copy","path":"scripts/scr_recursive_copy/scr_recursive_copy.yy",},},
     {"id":{"name":"scr_room_goto_fade","path":"scripts/scr_room_goto_fade/scr_room_goto_fade.yy",},},
     {"id":{"name":"scr_startagain","path":"scripts/scr_startagain/scr_startagain.yy",},},
     {"id":{"name":"scr_terminal_handlers","path":"scripts/scr_terminal_handlers/scr_terminal_handlers.yy",},},
